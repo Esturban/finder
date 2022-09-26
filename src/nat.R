@@ -1,9 +1,13 @@
 #Load the SMBs data from the current date and time
-
-smbs <-
-  readRDS(paste0('data/smbs_', format(Sys.time(), "%Y%m%d"), '.RDS'))
-table(smbs$Category)%>%.[order(.,decreasing = T)]
-smbs %>%
+# trailing<-unique(gsub("smbs_|tformed_","",list.files("data/",pattern = ".RDS",include.dirs = F)))
+# for(i in trailing)
+# {
+smbs <-readRDS(paste0('data/smbs_', format(Sys.time(), "%Y%m%d"), '.RDS'))
+# smbs <-readRDS(paste0('data/smbs_', i))
+smbs_unique<-smbs%>%unique(.)%>%
+  .[!duplicated(.$Name),]
+table(smbs_unique$Category)%>%.[order(.,decreasing = T)]
+smbs_unique %>%
   dplyr::mutate(
     #Binary flags of categories
     apparel_accessories = map_lgl(Category, grepl, pattern = 'APPAREL'),
@@ -64,13 +68,29 @@ smbs %>%
     # on_etsy =
   ) -> smbs_test
 
-# ~8.2% on etsy
+length(unique(smbs_test$offset))
+# ~7.9% on etsy
 sum(smbs_test$on_etsy) / nrow(smbs_test)
 # ~6% on instagram
 sum(smbs_test$on_instagram) / nrow(smbs_test)
-# ~1% on instagram
+# ~0.6% on facebook
 sum(smbs_test$on_fb) / nrow(smbs_test)
+
+smbs_test%>%dplyr::filter(!on_etsy, !on_instagram, !on_fb)%>%tibble::tibble()
+
+length(unique(smbs_test$Name))
+length(is.null(smbs_test$loc_img))
+table(smbs_test$loc_img)%>%.[order(.,decreasing = T)]%>%head(.)
+table(smbs_test$Name)%>%.[order(.,decreasing = T)]%>%head(.)
+
+table(basename(smbs_test$`Link to Website`))%>%.[order(.,decreasing = T)]%>%head()
+
+
+saveRDS(object = smbs_test,file = paste0(here::here('data'),'/smbs_tformed_',format(Sys.time(),"%Y%m%d"),'.RDS'))
+# saveRDS(object = smbs_test,file = paste0(here::here('data'),'/smbs_tformed_',i))
+# }
 smbs_test %>%
   dplyr::filter(on_etsy) %>%
+  .[!duplicated(.$Name),]%>%
   dplyr::select(Name:URL, on_etsy, on_instagram, img_src, dt_img) %>%
   DT::datatable(., escape = F)
