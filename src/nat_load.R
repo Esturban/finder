@@ -20,9 +20,9 @@ nat_data<-jsonlite::fromJSON(base_url)
 end_df<-nat_data$records$fields
 #Append the corresponding offset of the records to understand the origin of the fields to follow
 end_df$offset<-nat_data$offset
+end_df$last_update<-Sys.time()
 
-
-for(i in 1:400){
+for(i in 1:300){
   
   #Delay the next API call by 3 seconds
   Sys.sleep(3)
@@ -34,6 +34,8 @@ for(i in 1:400){
   nat_df<-nat_data$records$fields
   #Append the offset values to the dataframe
   nat_df$offset<-nat_offset
+  nat_df$last_update<-Sys.time()
+  
   #Combine all of the records from the NAT source
   end_df<-dplyr::bind_rows(end_df,nat_df)
   
