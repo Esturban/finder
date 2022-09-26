@@ -1,5 +1,5 @@
 FROM rocker/shiny:4.0.4
-RUN install2.r shiny forecast jsonlite ggplot2 htmltools rsconnect shinyMobile apexcharter
+RUN install2.r shiny forecast jsonlite ggplot2 htmltools rsconnect shinyMobile apexcharter shinyWidgets
 WORKDIR /home/shinyusr
 COPY app/ui ui 
 COPY app/modules modules 
