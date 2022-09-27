@@ -7,7 +7,7 @@ sapply(list.files(
   recursive = T
 ),
 function(f) {
-  source(paste0(path, f), .GlobalEnv)
+  source(paste0(path, f),F)
 })
 
 
