@@ -1,12 +1,4 @@
-require(shinyMobile)
-require(shiny)
-require(shinyWidgets)
-require(apexcharter)
-# setwd("app")
-if(!dir.exists("ui"))dir.create("ui")
-if(!dir.exists("ui/components"))dir.create("ui/components")
-if(!dir.exists("modules"))dir.create("modules")
-if(!dir.exists("src"))dir.create("src")
+source("setup.R",F)
 
 #Load and run all of the UI files
 sapply(list.files('src',full.names = T),source,local=F)
