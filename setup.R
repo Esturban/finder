@@ -5,6 +5,7 @@ require(dplyr)
 require(jsonlite)
 require(here)
 require(DT)
+require(rvest)
 
 
 #' 
