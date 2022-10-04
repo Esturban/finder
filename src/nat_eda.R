@@ -1,15 +1,11 @@
 # nat_eda.R
-require(apexcharter)
-require(tidyverse)
-
-# str(smbs_dev)
-
-# 
-# smbs_dev%>%
-
-library(apexcharter)
-# data("mpg", package = "ggplot2")
-require(microbenchmark)
+smbs_dev <-
+  readRDS(file = paste0(
+    here::here('data'),
+    '/smbs_dev_',
+    format(Sys.time(), "%Y%m%d"),
+    '.RDS'
+  ))
 smb_categories<-tapply(smbs_dev$Category,smbs_dev$Category, length)%>%.[order(.,decreasing = T)]%>%head(30)
 smbs_dev_operating<-smbs_dev%>%dplyr::filter(main_operating)
 smbs_dev_gtm<-smbs_dev%>%dplyr::filter(on_gtm_ga)
@@ -53,10 +49,11 @@ a_operating<-apexchart() %>%
       donut = list(size = "50%", background = "#BABABA")
     ))%>%
   ax_labels2(
-    unique(smb_operating)
+    unique(names(smb_operating))
   )%>%  
   ax_title(text = "% Operating") %>% 
-  ax_subtitle(text = "Source: Not Amazon Aggregator") 
+  ax_subtitle(text = "Source: Not Amazon Aggregator")%>%
+  ax_legend(show=F)
 
 
 
@@ -68,9 +65,10 @@ a_shopify<-apexchart() %>%
       donut = list(size = "50%", background = "#BABABA")
     ))%>%
   ax_labels2(
-    smb_op_shopify%>%unique(.)
+    names(smb_op_shopify)%>%unique(.)
   )%>%  
-  ax_title(text = "% Shopify") #%>% 
+  ax_title(text = "% Shopify")%>%
+  ax_legend(show=F) #%>% 
 # ax_subtitle(text = "Source: EV Advisory") 
 
 
@@ -83,9 +81,10 @@ a_square<-apexchart() %>%
       donut = list(size = "50%", background = "#BABABA")
     ))%>%
   ax_labels2(
-    smb_op_square%>%unique(.)
+    names(smb_op_square)%>%unique(.)
   )%>%  
-  ax_title(text = "% Squarespace")#%>% 
+  ax_title(text = "% Squarespace")%>%
+  ax_legend(show=F)#%>% 
 # ax_subtitle(text = "Source: EV Advisory") 
 
 
@@ -97,9 +96,10 @@ a_wp<-apexchart() %>%
       donut = list(size = "50%", background = "#BABABA")
     ))%>%
   ax_labels2(
-    smb_op_wp%>%unique(.)
+    names(smb_op_wp)%>%unique(.)
   )%>%  
-  ax_title(text = "% Wordpress") #%>% 
+  ax_title(text = "% Wordpress")%>%
+  ax_legend(show=F) #%>% 
 # ax_subtitle(text = "Source: EV Advisory") 
 
 
@@ -111,9 +111,10 @@ a_ga<-apexchart() %>%
       donut = list(size = "50%", background = "#BABABA")
     ))%>%
   ax_labels2(
-    smb_ga%>%unique(.)
+    names(smb_ga)%>%unique(.)
   )%>%  
-  ax_title(text = "% w/ GA") #%>% 
+  ax_title(text = "% w/ GA")%>%
+  ax_legend(show=F) #%>% 
 # ax_subtitle(text = "Source: EV Advisory") 
 
 
@@ -125,17 +126,14 @@ a_ga4<-apexchart() %>%
       donut = list(size = "50%", background = "#BABABA")
     ))%>%
   ax_labels2(
-    smb_ga4%>%unique(.)
+    names(smb_ga4)%>%unique(.)
   )%>%  
-  ax_title(text = "% w/ GA4") #%>% 
+  ax_title(text = "% w/ GA4") %>%
+  ax_legend(show=F)#%>% 
   # ax_subtitle(text = "Source: EV Advisory") 
 
 
 names(smbs_dev)
-
-# a2 <- apex(smbs_dev, aes(main_operating), type = "column")
-a3 <- apex(mpg, aes(drv), type = "pie")
-a3 <- apex(mpg, aes(drv), type = "pie")
 
 # Assemble them in a grid
 apex_grid(
