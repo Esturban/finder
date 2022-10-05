@@ -2,6 +2,13 @@
 # trailing<-unique(gsub("smbs_|tformed_","",list.files("data/",pattern = ".RDS",include.dirs = F)))
 # for(i in trailing)
 # {
+
+# smbs %>%
+#   #Remove etsy, IG and FB
+#   #Approximately 14% removal
+#   dplyr::filter(!on_etsy, !on_instagram, !on_fb)%>%
+#   .[sample.int(nrow(.), 20), ]%>%select(1:5)%>%tibble()%>%tidyr::unnest(Photo)%>%select(Name,Category,url,thumbnails)->smb_int
+
 smbs <-readRDS(paste0('data/smbs_', format(Sys.time(), "%Y%m%d"), '.RDS'))
 # smbs <-readRDS(paste0('data/smbs_', i))
 smbs_unique<-smbs%>%unique(.)%>%
@@ -46,7 +53,7 @@ smbs_unique %>%
     not_on_ig_etsy = map_lgl(`Link to Website`, grepl, pattern = '^instagram|^etsy|^facebook'),
     #Image source from the NAT grids
     img_src = map_chr(.x = Photo,  ~ regmatches(
-      .x, gregexpr("(?<=\\().*?(?=\\))", .x, perl = T)
+      .x$url, gregexpr("(?<=\\().*?(?=\\))", .x$url, perl = T)
     )[[1]][1]),
     #Datatable image source and size for the DT
     dt_img = paste0('<img src="', img_src, '" height="52"></img>'),
