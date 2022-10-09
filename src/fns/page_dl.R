@@ -1,4 +1,5 @@
-page_dl<-function(url){
+page_dl<-function(url, character_min = 5){
+  if(nchar(gsub("https://|https://|[[:blank:]]","",url))>character_min)
   tryCatch({
     page <- rvest::read_html(url)
     unlink(url)
@@ -25,5 +26,5 @@ page_dl<-function(url){
       print(err)
       return(NULL)
     }))
-  })
+  }) else return(NULL)
 }
