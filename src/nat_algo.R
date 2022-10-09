@@ -1,7 +1,7 @@
 # nat_algo
 # Load all of the transformed data into an R object, data frame
-source(here::here("setup.R"), F)
-source(here::here("src","fns"), F)
+# source(here::here("setup.R"), F)
+# source(here::here("src","fns"), F)
 smbs <-
   readRDS(file = paste0(
     here::here('data'),
@@ -21,13 +21,14 @@ smbs <-
 # names(smbs)
 
 #Begin runtime
-for(i in 1:10)
-{start <- Sys.time()
+# for(i in 1:10)
+# {
+  start <- Sys.time()
 smbs_dev <- smbs %>%
   #Remove etsy, IG and FB
   #Approximately 14% removal
   dplyr::filter(!on_etsy,!on_instagram,!on_fb) %>%
-  .[sample.int(nrow(.), 20), ] %>%
+  # .[sample.int(nrow(.), 20), ] %>%
   # smbs_dev<-smbs%>%
   dplyr::mutate(
     #Determine if the link is an independent website or if it's a down stream page of the site
@@ -46,14 +47,16 @@ smbs_dev <- smbs %>%
     header_links = purrr::map2(.x = main_page, .y = main_operating,  ~node_attrs(x = .x, selected = "head > link, head > script",condition = .y)),
     # find all of the page links,
     page_links = purrr::map2(.x = main_page, .y = main_operating,  ~node_attrs(x = .x, selected = "a",condition = .y)),
-    instagram_user = purrr::map2_chr(.x = page_links,.y = domain,~social_user(x = .x,verbose = .y, stopwords = ig_stopwords)),
-    twitter_user = purrr::map2_chr(.x = page_links,.y = domain,~social_user(x = .x,social = "twitter",verbose = .y, stopwords = ig_stopwords)),
+    instagram_user = purrr::map2(.x = page_links,.y = domain,~social_user(x = .x,verbose = F, stopwords = ig_stopwords)),
+    twitter_user = purrr::map2(.x = page_links,.y = domain,~social_user(x = .x,social = "twitter",verbose = F, stopwords = ig_stopwords)),
     #Determine if the site relies on shopify assets
     is_shopify = purrr::map_lgl(.x = header_links,  ~ find_deps(attrs = .x,sources = c("href","src"),dep_keys = c("shopify"))),
     #Determine if the site relies on squarespace assets
     is_squarespace = purrr::map_lgl(.x = header_links,  ~ find_deps(attrs = .x,sources = c("href","src"),dep_keys = c("squarespace"))),
     #Determine if the site relies on wordpress assets
     is_wordpress = purrr::map_lgl(.x = header_links,  ~ find_deps(attrs = .x,sources = c("href","src"),dep_keys = c("wordpress"))),
+    #Determine if the site relies on wordpress assets
+    is_wix = purrr::map_lgl(.x = header_links,  ~ find_deps(attrs = .x,sources = c("href","src"),dep_keys = c("wix"))),
     #Determine if the site relies on book manager assets
     is_bookmanager = purrr::map_lgl(.x = header_links,  ~ find_deps(attrs = .x,sources = c("href","src"),dep_keys = c("bookmanager"))),
     #Determine if the site relies on cloudflare assets
@@ -78,7 +81,7 @@ smbs_dev <- smbs %>%
   )
 end <- Sys.time()
 print(end - start)
-}
+# }
 #Save the development algorithms into an intermediate dataset
 saveRDS(object = smbs_dev,
         file = paste0(

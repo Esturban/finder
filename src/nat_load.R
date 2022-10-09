@@ -4,7 +4,7 @@ nat_json<-jsonlite::fromJSON('https://not-amazon-to.pory.app/api/app/data/6009ce
 
 #Determine all of the elements of the records
 #
-str(nat_json$records$fields)
+# str(nat_json$records$fields)
 # 'data.frame':	12 obs. of  5 variables:
 #   $ Name           : chr  "RAVEN READS" "GLAD DAY BOOKSHOP" "TYPE BOOKS" "A DIFFERENT BOOK LIST" ...
 # $ Category       : chr  "BOOKS" "BOOKS" "BOOKS" "BOOKS" ...
