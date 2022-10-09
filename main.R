@@ -4,6 +4,7 @@ nat_load <-F
 nat_tform <-F
 nat_algo <-F
 nat_eda <-F
+sapply(list.files(here::here("src","fns"),full.names = T),source,local = F)
 
 nat_load <-
   tryCatch({
