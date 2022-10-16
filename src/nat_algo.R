@@ -92,13 +92,13 @@ saveRDS(object = smbs_dev,
         ))
 str(smbs_dev)
 #
-# smbs_dev2 <-
-#   readRDS(file = paste0(
-#     here::here('data'),
-#     '/smbs_dev_',
-#     format(Sys.time()-86400, "%Y%m%d"),
-#     '.RDS'
-# ))
+smbs_dev2 <-
+  readRDS(file = paste0(
+    here::here('data'),
+    '/smbs_dev_',
+    format(Sys.time()-86400*3, "%Y%m%d"),
+    '.RDS'
+))
 
 # smbs_dev2%>%
 #   dplyr::filter(main_operating)%>%

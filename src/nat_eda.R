@@ -1,9 +1,11 @@
 # nat_eda.R
+# smbs_dev<-smbs_dev2
+
 smbs_dev <-
   readRDS(file = paste0(
     here::here('data'),
     '/smbs_dev_',
-    format(Sys.time(), "%Y%m%d"),
+    format(Sys.time()-86400, "%Y%m%d"),
     '.RDS'
   ))
 smb_categories <-
@@ -192,3 +194,6 @@ smbs_dev %>%
   .[sample.int(nrow(.),1),]%>%
   dplyr::mutate(script = paste0("Hi ", gsub("The ","",Name),",  \n","I was on your website and wanted to learn a bit about your [PRODUCT DESCRIPTION]. "))%>%
   dplyr::select(Name, Category,script)
+
+smbs_dev%>%dplyr::tibble()
+str(smbs_dev)
