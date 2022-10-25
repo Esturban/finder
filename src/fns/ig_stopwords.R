@@ -14,5 +14,10 @@ ig_stopwords <-
     "?hl=en",
     "/",
     "\\?",
-    "#-1","pages","shop-our-","utm_source=ig_web_copy_link","wix","-\\w+"
+    "#-1",
+    "pages",
+    "shop-our-",
+    "utm_source=ig_web_copy_link",
+    "wix",
+    "-\\w+"
   )
