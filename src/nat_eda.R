@@ -5,7 +5,9 @@ smbs_dev <-
   readRDS(file = paste0(
     here::here('data'),
     '/smbs_dev_',
-    format(Sys.time()-86400, "%Y%m%d"),
+    format(Sys.time(), "%Y%m%d"),
+    # format(Sys.time()-86400*11, "%Y%m%d"),
+    # format(as.Date("2022-09-27"), "%Y%m%d"),
     '.RDS'
   ))
 smb_categories <-
@@ -192,8 +194,8 @@ smbs_dev %>%
 
 smbs_dev %>%
   .[sample.int(nrow(.),1),]%>%
-  dplyr::mutate(script = paste0("Hi ", gsub("The ","",Name),",  \n","I was on your website and wanted to learn a bit about your [PRODUCT DESCRIPTION]. "))%>%
+  dplyr::mutate(script = paste0("Hi ", gsub("The |That ","",Name),",  \n","I was on your website and wanted to learn a bit about your [PRODUCT DESCRIPTION]. "))%>%
   dplyr::select(Name, Category,script)
 
-smbs_dev%>%dplyr::tibble()
-str(smbs_dev)
+# smbs_dev%>%dplyr::tibble()
+# str(smbs_dev)
