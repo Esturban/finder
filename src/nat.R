@@ -9,7 +9,7 @@
 #   dplyr::filter(!on_etsy, !on_instagram, !on_fb)%>%
 #   .[sample.int(nrow(.), 20), ]%>%select(1:5)%>%tibble()%>%tidyr::unnest(Photo)%>%select(Name,Category,url,thumbnails)->smb_int
 
-smbs <-readRDS(paste0('data/smbs_', format(Sys.time(), "%Y%m%d"), '.RDS'))
+smbs <-readRDS(paste0(here::here('data','raw'),'/smbs_',format(Sys.time(),"%Y%m%d"),'.RDS'))
 # smbs <-readRDS(paste0('data/smbs_', i))
 smbs_unique<-smbs%>%unique(.)%>%
   .[!duplicated(.$Name),]
@@ -93,7 +93,7 @@ table(smbs_test$Name)%>%.[order(.,decreasing = T)]%>%head(.)
 table(basename(smbs_test$`Link to Website`))%>%.[order(.,decreasing = T)]%>%head()
 
 
-saveRDS(object = smbs_test,file = paste0(here::here('data'),'/smbs_tformed_',format(Sys.time(),"%Y%m%d"),'.RDS'))
+saveRDS(object = smbs_test,file = paste0(here::here('data','tform'),'/smbs_tformed_',format(Sys.time(),"%Y%m%d"),'.RDS'))
 # saveRDS(object = smbs_test,file = paste0(here::here('data'),'/smbs_tformed_',i))
 # }
 smbs_test %>%
