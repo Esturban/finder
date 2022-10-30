@@ -31,7 +31,7 @@ smbs_dev <- smbs %>%
     #Collect the entire page
     main_page = purrr::map(domain,  ~page_dl(.x)),
     #Check if the main page is operational and if it's been collected
-    main_operating = purrr::map_lgl(.x = main_page,  ~ !is.null(.x)),
+    main_operating = purrr::map_lgl(.x = main_page,  ~ !is.null(.x$page)),
     #For all operating websites,
     # find the header links
     header_links = purrr::map2(.x = main_page, .y = main_operating,  ~node_attrs(x = .x, selected = "head > link, head > script",condition = .y)),
