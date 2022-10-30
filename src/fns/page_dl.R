@@ -3,7 +3,7 @@ page_dl<-function(url, character_min = 5){
   tryCatch({
     page <- rvest::read_html(url)
     unlink(url)
-    page
+    list(page = page,check = 0)
   }
   , error = function(e)
   {
@@ -17,14 +17,14 @@ page_dl<-function(url, character_min = 5){
       print(paste0("Trying unsecure link: ",page_link))
       page <- rvest::read_html(page_link)
       unlink(page_link)
-      page
+      list(page = page,check = 0, err = e)
     }, error = function(err)
     {
       #Return a NULL if missing, checked in the next step
       unlink(page_link)
       print(paste0("Failed: ", page_link))
       print(err)
-      return(NULL)
+      return(list(page = NULL,check = -1,err = err))
     }))
-  }) else return(NULL)
+  }) else return(list(page = NULL,check = -1,err = err))
 }

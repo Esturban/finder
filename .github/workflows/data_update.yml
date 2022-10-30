@@ -3,9 +3,6 @@ name: 'Data Update - Dev'
 on:
   schedule:
     - cron: '30 2 * * *'
-  push:
-    branches:
-    - dev  # Support wildcard matching
     
 jobs:
   data-update:
