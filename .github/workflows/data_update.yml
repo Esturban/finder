@@ -17,7 +17,7 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - {os: ubuntu-latest,   r: 'release'}
+          - {os: [ubuntu-latest,windows-latest],   r: 'release', http-user-agent: 'release'}
 
     env:
       R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
@@ -47,12 +47,6 @@ jobs:
          path: ${{ env.R_LIBS_USER }}
          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
-
-     - name: Install dependencies
-       run: |
-        # remotes::install_deps(dependencies = TRUE)
-       shell: Rscript {0}
-          
      - name: Generate data for the finder
        run: |
         source("main.R")
