@@ -3,7 +3,7 @@
 
 smbs_dev <-
   readRDS(file = paste0(
-    here::here('data'),
+    here::here('data','algo'),
     '/smbs_dev_',
     format(Sys.time(), "%Y%m%d"),
     # format(Sys.time()-86400*11, "%Y%m%d"),
@@ -199,5 +199,5 @@ smbs_dev %>%
 
 # smbs_dev%>%dplyr::tibble()
 # str(smbs_dev)
-colnames(smbs_dev)
-smbs_dev[1,'main_page']
+# colnames(smbs_dev)
+# smbs_dev[1,'main_page']

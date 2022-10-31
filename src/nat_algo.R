@@ -4,7 +4,7 @@
 # source(here::here("src","fns"), F)
 smbs <-
   readRDS(file = paste0(
-    here::here('data'),
+    here::here('data','tform'),
     '/smbs_tformed_',
     format(Sys.time(), "%Y%m%d"),
     '.RDS'
@@ -75,7 +75,7 @@ print(end - start)
 #Save the development algorithms into an intermediate dataset
 saveRDS(object = smbs_dev,
         file = paste0(
-          here::here('data'),
+          here::here('data','algo'),
           "/smbs_dev_",
           format(Sys.time(), '%Y%m%d'),
           ".RDS"
