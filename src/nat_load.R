@@ -44,4 +44,4 @@ for(i in 1:300){
 #Upon completion, save the full final DF as an object called SMBs
 smbs<-end_df  
 #Save the file into the data folder for access later on in the application
-saveRDS(object = smbs,file = paste0(here::here('data'),'/smbs_',format(Sys.time(),"%Y%m%d"),'.RDS'))
+saveRDS(object = smbs,file = paste0(here::here('data','raw'),'/smbs_',format(Sys.time(),"%Y%m%d"),'.RDS'))
