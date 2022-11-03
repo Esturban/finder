@@ -60,7 +60,7 @@ jobs:
          git commit -am "Runtime Data Update" -m "Updating the runtime data to include additional coverage" -m "Run on ${{ runner.os }}"
          git push
      - name: Commit files to Dev as well
-       if: matrix.config.branch == 'windows-dev'     
+       if: matrix.config.branch == 'ubuntu-dev'     
        run: |
          git push origin ${{ matrix.config.branch }}:dev
      - name: Session info
