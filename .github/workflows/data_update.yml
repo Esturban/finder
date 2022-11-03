@@ -65,6 +65,7 @@ jobs:
      - name: Commit files to Dev as well
        if: matrix.config.branch == 'ubuntu-dev'     
        run: |
+         git pull origin dev --allow-unrelated-histories
          git push origin ${{ matrix.config.branch }}:dev
      - name: Session info
        run: |
