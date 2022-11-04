@@ -26,5 +26,5 @@ page_dl<-function(url, character_min = 5){
       print(err)
       return(list(page = NULL,check = -1,err = err))
     }))
-  }) else return(list(page = NULL,check = -1,err = err))
+  }) else return(list(page = NULL,check = -1,err = "Too few characters"))
 }
