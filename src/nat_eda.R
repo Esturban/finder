@@ -7,7 +7,7 @@ smbs_dev <-
     '/smbs_dev_',
     format(Sys.time(), "%Y%m%d"),
     # format(Sys.time()-86400*11, "%Y%m%d"),
-    # format(as.Date("2022-09-27"), "%Y%m%d"),
+    # format(as.Date("2022-10-31"), "%Y%m%d"),
     '.RDS'
   ))
 smb_categories <-
