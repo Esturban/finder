@@ -24,6 +24,7 @@ if (nat_load)
     print(e)
     return(F)
   })
+
 if (nat_tform)
   nat_algo<-tryCatch({
     source(here::here("src","nat_algo.R"), F)
