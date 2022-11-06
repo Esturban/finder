@@ -1,6 +1,9 @@
 name: 'Data Update - Dev'
 
 on:
+  push:
+    branches:
+    - dev
   schedule:
     - cron: '40 3 * * *'
     
