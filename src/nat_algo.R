@@ -34,9 +34,9 @@ smbs_dev <- smbs %>%
     main_operating = purrr::map_lgl(.x = main_page,  ~ !is.null(.x$page)),
     #For all operating websites,
     # find the header links
-    header_links = purrr::map2(.x = main_page, .y = main_operating,  ~node_attrs(x = .x, selected = "head > link, head > script",condition = .y)),
+    header_links = purrr::map2(.x = main_page, .y = main_operating,  ~node_attrs(x = .x$page, selected = "head > link, head > script",condition = .y)),
     # find all of the page links,
-    page_links = purrr::map2(.x = main_page, .y = main_operating,  ~node_attrs(x = .x, selected = "a",condition = .y)),
+    page_links = purrr::map2(.x = main_page, .y = main_operating,  ~node_attrs(x = .x$page, selected = "a",condition = .y)),
     instagram_user = purrr::map2(.x = page_links,.y = domain,~social_user(x = .x,verbose = F, stopwords = ig_stopwords)),
     twitter_user = purrr::map2(.x = page_links,.y = domain,~social_user(x = .x,social = "twitter",verbose = F, stopwords = ig_stopwords)),
     #Determine if the site relies on shopify assets
