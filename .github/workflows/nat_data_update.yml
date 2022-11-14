@@ -49,7 +49,7 @@ jobs:
          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
      - name: Generate data for the finder
        run: |
-        source("main.R")
+        source("nat_main.R")
        shell: Rscript {0} 
         
      - name: Commit files   
