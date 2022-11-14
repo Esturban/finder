@@ -30,7 +30,7 @@ lapply(cities, function(x) {
   
   city_dataset%>%dplyr::mutate(page_status = purrr::map_chr(.x = page_status,~rjson::toJSON(.x)),
                                update_time = Sys.time())->city_dataset
-  
+  if(!dir.exists(here::here("data","homestars","categories"))) dir.create(here::here("data","homestars","categories"))
   readr::write_csv(city_dataset,file = here::here("data","homestars","categories",paste0("cat_",gsub("[[:punct:]]|[[:blank:]]","",x),".csv")))
   
   
