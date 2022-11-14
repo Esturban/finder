@@ -1,4 +1,4 @@
-name: 'Data Update - Dev'
+name: 'NAT Data Update - Dev'
 
 on:
   schedule:
@@ -15,8 +15,8 @@ jobs:
       matrix:
         config:
           - {os: ubuntu-latest,   r: 'release', http-user-agent: 'release', branch: 'ubuntu-dev'}
-          - {os: windows-latest,   r: 'release', http-user-agent: 'release', branch: 'windows-dev'}
-          - {os: macOS-latest,   r: 'release', http-user-agent: 'release', branch: 'macOS-dev'}
+          # - {os: windows-latest,   r: 'release', http-user-agent: 'release', branch: 'windows-dev'}
+          # - {os: macOS-latest,   r: 'release', http-user-agent: 'release', branch: 'macOS-dev'}
 
     env:
       R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
