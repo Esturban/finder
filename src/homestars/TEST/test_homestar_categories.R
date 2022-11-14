@@ -1,3 +1,5 @@
+last_max <- 0
+
 for (i in 1:100)
 {
   if (test_it)
