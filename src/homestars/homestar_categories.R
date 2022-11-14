@@ -2,7 +2,7 @@
 #Scraping all of the homestars categories
 #
 sapply(list.files(here::here("src","fns"),full.names = T),source,local = F)
-test_it <- T
+test_it <- F
 #Gather all of the categories up front
 "https://homestars.com/on/toronto/categories" %>% read_html -> all_cat_page
 #Gather all of the toronto specifuc URLs
