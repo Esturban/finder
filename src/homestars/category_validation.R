@@ -28,7 +28,7 @@ lapply(cities, function(x) {
       ))
     )->city_dataset
   
-  city_dataset%>%dplyr::mutate(page_status = purrr::map_chr(.x = page_status,~rjson::toJSON),
+  city_dataset%>%dplyr::mutate(page_status = purrr::map_chr(.x = page_status,~rjson::toJSON(.x)),
                                update_time = Sys.time())->city_dataset
   
   readr::write_csv(city_dataset,file = here::here("data","homestars","categories",paste0("cat_",x,".csv")))
