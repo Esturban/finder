@@ -8,7 +8,7 @@ sapply(list.files(here::here("src","fns"),full.names = T),source,local = F)
 
 nat_load <-
   tryCatch({
-    source(here::here("src","nat_load.R"), F)
+    source(here::here("src","nat","nat_load.R"), F)
     T
   },
   error = function(e) {
@@ -18,7 +18,7 @@ nat_load <-
 
 if (nat_load)
   nat_tform<-tryCatch({
-    source(here::here("src","nat.R"), F)
+    source(here::here("src","nat","nat.R"), F)
     T
   }, error = function(e) {
     print(e)
@@ -27,7 +27,7 @@ if (nat_load)
 
 if (nat_tform)
   nat_algo<-tryCatch({
-    source(here::here("src","nat_algo.R"), F)
+    source(here::here("src","nat","nat_algo.R"), F)
     T
   }, error = function(e) {
     print(e)
@@ -36,7 +36,7 @@ if (nat_tform)
 
 if (nat_algo)
   nat_eda<-tryCatch({
-    source(here::here("src","nat_eda.R"), F)
+    source(here::here("src","nat","nat_eda.R"), F)
     T
   }, error = function(e) {
     print(e)

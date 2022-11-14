@@ -4,7 +4,7 @@
 # source(here::here("src","fns"), F)
 smbs <-
   readRDS(file = paste0(
-    here::here('data','tform'),
+    here::here('data',"nat",'tform'),
     '/smbs_tformed_',
     format(Sys.time(), "%Y%m%d"),
     '.RDS'
@@ -55,6 +55,8 @@ smbs_dev <- smbs %>%
     is_netlify = purrr::map_lgl(.x = header_links,  ~ find_deps(attrs = .x,sources = c("href","src"),dep_keys = c("netlify"))),
     #Determine if the site relies on gtm assets
     on_gtm = purrr::map_lgl(.x = header_links,   ~ find_deps(attrs = .x,sources = c("href","src"),dep_keys = c("googletagmanager"))),
+    #Determine if the site relies on gtm assets
+    on_hotjar = purrr::map_lgl(.x = header_links,   ~ find_deps(attrs = .x,sources = c("href","src"),dep_keys = c("hotjar"))),
     #Determine if the site relies on google analytics assets
     on_ga = purrr::map_lgl(.x = header_links,  ~ find_deps(attrs = .x,sources = c("href","src"),dep_keys = c("googleanalytics","google-analytics"))),
     #Determine if the site relies on universal analytics google analytics assets
@@ -75,7 +77,7 @@ print(end - start)
 #Save the development algorithms into an intermediate dataset
 saveRDS(object = smbs_dev,
         file = paste0(
-          here::here('data','algo'),
+          here::here('data',"nat",'algo'),
           "/smbs_dev_",
           format(Sys.time(), '%Y%m%d'),
           ".RDS"
