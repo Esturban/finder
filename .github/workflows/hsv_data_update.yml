@@ -1,7 +1,6 @@
 name: 'Homestars Validation - Dev'
 
 on:
-  on:
   push:
     branches:
       - dev
