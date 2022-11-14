@@ -35,5 +35,6 @@ city_cats <- lapply(1:length(cities), function(x) {
 
 last_max <- 0
 
+#Testing not enabled at this time
 if(test_it)source(here::here("src","homestars","TEST","test_homestar_categories.R"),F)
 
