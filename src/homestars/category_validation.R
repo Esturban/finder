@@ -1,5 +1,6 @@
 # homestar_category_validation
 start <- Sys.time()
+#Only review 350 random cities at a time
 lapply(cities[sample.int(length(cities),350)], function(x) {
   #City being analyzed
   if (!file.exists(here::here(
