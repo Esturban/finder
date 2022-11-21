@@ -1,0 +1,190 @@
+City,Category,Link,page_status,status_code,update_time
+hearst,Basement Renovation,https://homestars.com/on/hearst/basement-renovation,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Bathroom Renovation,https://homestars.com/on/hearst/bathroom-renovation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Condominium Renovations,https://homestars.com/on/hearst/condominium-renovations,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Decks,https://homestars.com/on/hearst/patios-decks,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Demolition,https://homestars.com/on/hearst/demolition,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,"Elevators, Lifts & Ramps Installation & Service",https://homestars.com/on/hearst/elevators-lifts-ramps,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Historical Restoration,https://homestars.com/on/hearst/historical-restoration,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Home Additions,https://homestars.com/on/hearst/home-additions,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Home Inspection,https://homestars.com/on/hearst/home-inspection,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Home Office Renovation,https://homestars.com/on/hearst/home-office-renovation,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Kitchen Planning & Renovation,https://homestars.com/on/hearst/kitchen-planning-renovation,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Renovation Cleaning,https://homestars.com/on/hearst/renovation-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Architects,https://homestars.com/on/hearst/architects,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Builders,https://homestars.com/on/hearst/builders,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Concrete Contractors,https://homestars.com/on/hearst/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Design/Build,https://homestars.com/on/hearst/design-build,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Design/Project Management,https://homestars.com/on/hearst/design-project-management,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Drafting Service,https://homestars.com/on/hearst/drafting-service,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,General Contractors,https://homestars.com/on/hearst/general-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Renovation Advisors,https://homestars.com/on/hearst/renovation-advisors,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Structural Engineering,https://homestars.com/on/hearst/structural-engineering,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Surveyors,https://homestars.com/on/hearst/surveyors,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Bathroom & Kitchen - Fixtures & Accessories,https://homestars.com/on/hearst/bathroom-kitchen-fixtures-accessories,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Cabinetry & Millwork,https://homestars.com/on/hearst/cabinetry-millwork,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Carpenters,https://homestars.com/on/hearst/carpenters,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Closet & Storage Solutions,https://homestars.com/on/hearst/closet-storage-solutions,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Decks,https://homestars.com/on/hearst/patios-decks,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,"Elevators, Lifts & Ramps Installation & Service",https://homestars.com/on/hearst/elevators-lifts-ramps,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Framing,https://homestars.com/on/hearst/framing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Kitchen & Bathroom - Cabinets & Design,https://homestars.com/on/hearst/kitchen-bathroom-cabinets-design,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Railings,https://homestars.com/on/hearst/railings,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Stair Builders,https://homestars.com/on/hearst/stair-builders,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Woodworking,https://homestars.com/on/hearst/woodworking,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Blinds Cleaning & Repairing,https://homestars.com/on/hearst/blinds-cleaning-repairing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Carpet & Rug Cleaning & Repairing,https://homestars.com/on/hearst/carpet-rug-cleaning-repairing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Drapery & Upholstery Cleaning,https://homestars.com/on/hearst/drapery-upholstery-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Duct Cleaning,https://homestars.com/on/hearst/duct-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Fire & Water Damage Restoration,https://homestars.com/on/hearst/fire-water-damage-restoration,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,House & Apartment Cleaning,https://homestars.com/on/hearst/house-apartment-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,House Cleaning Exteriors,https://homestars.com/on/hearst/house-cleaning-exteriors,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Junk Removal,https://homestars.com/on/hearst/junk-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Renovation Cleaning,https://homestars.com/on/hearst/renovation-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,"Septic Tank Cleaning, Repair & Installation",https://homestars.com/on/hearst/septic-tank-cleaning-repair-installation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Tile and Grout Cleaning,https://homestars.com/on/hearst/tile-and-grout-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Window & Gutter Cleaning,https://homestars.com/on/hearst/window-gutter-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Chimney Build & Repair,https://homestars.com/on/hearst/chimney-build-repair,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Chimney Sweeps,https://homestars.com/on/hearst/chimney-sweeps,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Interlocking Stone,https://homestars.com/on/hearst/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Masonry & Bricklaying,https://homestars.com/on/hearst/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Tuck Pointing,https://homestars.com/on/hearst/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Waterproofing,https://homestars.com/on/hearst/waterproofing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Bathroom & Kitchen - Fixtures & Accessories,https://homestars.com/on/hearst/bathroom-kitchen-fixtures-accessories,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,"Game Rooms, Entertainment",https://homestars.com/on/hearst/game-rooms-entertainment,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Garage Design & Organization,https://homestars.com/on/hearst/garage-design-organization,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Home Staging,https://homestars.com/on/hearst/staging,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Interior Decorators,https://homestars.com/on/hearst/interior-decorators,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Interior Design,https://homestars.com/on/hearst/interior-design,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Kitchen & Bathroom - Cabinets & Design,https://homestars.com/on/hearst/kitchen-bathroom-cabinets-design,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Alarm Systems,https://homestars.com/on/hearst/alarm-systems,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Appliance Repair,https://homestars.com/on/hearst/appliance-repair,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Appliance Retailers,https://homestars.com/on/hearst/appliance-retailers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Computer Repairs and Support,https://homestars.com/on/hearst/computer-repairs-service,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Electricians,https://homestars.com/on/hearst/electricians,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Electronic Repairs,https://homestars.com/on/hearst/electronic-repairs,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Home Automation,https://homestars.com/on/hearst/home-automation,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Home Theater,https://homestars.com/on/hearst/home-theater,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Lighting,https://homestars.com/on/hearst/lighting,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Satellite Sales & Service,https://homestars.com/on/hearst/satellite-sales-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Vacuum Sales & Service,https://homestars.com/on/hearst/vacuum-sales-service,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Carpet & Rug Retailers,https://homestars.com/on/hearst/carpet-rug-retailers,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Carpet Installers,https://homestars.com/on/hearst/carpet-installers,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Concrete Contractors,https://homestars.com/on/hearst/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Decorative Concrete,https://homestars.com/on/hearst/decorative-concrete,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Floor Laying & Refinishing,https://homestars.com/on/hearst/floor-laying-refinishing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Floor Retailers,https://homestars.com/on/hearst/floor-retailers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Interlocking Stone,https://homestars.com/on/hearst/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Masonry & Bricklaying,https://homestars.com/on/hearst/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Tile & Stone Contractors,https://homestars.com/on/hearst/tile-stone-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Tuck Pointing,https://homestars.com/on/hearst/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Excavation,https://homestars.com/on/hearst/excavation-demolition,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Foundations,https://homestars.com/on/hearst/foundations,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Interlocking Stone,https://homestars.com/on/hearst/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Masonry & Bricklaying,https://homestars.com/on/hearst/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Tuck Pointing,https://homestars.com/on/hearst/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Waterproofing,https://homestars.com/on/hearst/waterproofing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Furniture,https://homestars.com/on/hearst/furniture,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Furniture Designers & Custom Builders,https://homestars.com/on/hearst/furniture-designers-custom-builders,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Furniture Refinish & Repair,https://homestars.com/on/hearst/furniture-refinish-repair,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Furniture Rental,https://homestars.com/on/hearst/furniture-rental,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Home Staging,https://homestars.com/on/hearst/staging,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Upholsterers,https://homestars.com/on/hearst/upholsterers,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Closet & Storage Solutions,https://homestars.com/on/hearst/closet-storage-solutions,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Garage Design & Organization,https://homestars.com/on/hearst/garage-design-organization,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Garage Doors & Hardware,https://homestars.com/on/hearst/garage-doors-hardware,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Junk Removal,https://homestars.com/on/hearst/junk-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Moving & Storage,https://homestars.com/on/hearst/moving-storage,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Organizing Products & Services,https://homestars.com/on/hearst/organizing-products-services,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Electrical Vehicle Charging,https://homestars.com/on/hearst/electrical-vehicle-charging,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Green Products & Services,https://homestars.com/on/hearst/green-products-services,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Renewable Energy,https://homestars.com/on/hearst/renewable-energy,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Skylight Installation & Repair,https://homestars.com/on/hearst/skylights,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Solar Panels,https://homestars.com/on/hearst/solar-panels,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Solar Water Heating,https://homestars.com/on/hearst/solar-water-heating,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,"Sunrooms, Solariums & Greenhouses",https://homestars.com/on/hearst/sunrooms-solariums-greenhouses,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Appliance Repair,https://homestars.com/on/hearst/appliance-repair,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Building Supplies and Hardware,https://homestars.com/on/hearst/building-supplies-and-hardware,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Electricians,https://homestars.com/on/hearst/electricians,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Handyman Services,https://homestars.com/on/hearst/handyman-services,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Lighting,https://homestars.com/on/hearst/lighting,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Paint & Wallpaper Contractors,https://homestars.com/on/hearst/paint-wallpaper-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Plumbing,https://homestars.com/on/hearst/plumbing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,BBQ Equipment & Service,https://homestars.com/on/hearst/bbq-equipment-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Duct Cleaning,https://homestars.com/on/hearst/duct-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Fireplace Mantels,https://homestars.com/on/hearst/fireplace-mantels,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Fireplaces,https://homestars.com/on/hearst/fireplaces,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Gas Line Installation,https://homestars.com/on/hearst/gas-line-installation,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Heating & Air Conditioning,https://homestars.com/on/hearst/heating-air-conditioning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,BBQ Equipment & Service,https://homestars.com/on/hearst/bbq-equipment-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Concrete Contractors,https://homestars.com/on/hearst/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Decks,https://homestars.com/on/hearst/patios-decks,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Decorative Concrete,https://homestars.com/on/hearst/decorative-concrete,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Excavation,https://homestars.com/on/hearst/excavation-demolition,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Fences & Gates,https://homestars.com/on/hearst/fences-gates,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Garden Maintenance,https://homestars.com/on/hearst/garden-maintenance,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Gazebos & Sheds,https://homestars.com/on/hearst/gazebos-sheds,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Interlocking Stone,https://homestars.com/on/hearst/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Landscape Architects,https://homestars.com/on/hearst/landscape-architects,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Landscape Contractors & Designers,https://homestars.com/on/hearst/landscape-contractors-designers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Landscape Lighting,https://homestars.com/on/hearst/landscape-lighting,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Lawn Maintenance,https://homestars.com/on/hearst/lawn-maintenance,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Masonry & Bricklaying,https://homestars.com/on/hearst/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Sprinkler Systems,https://homestars.com/on/hearst/sprinkler-systems,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,"Swimming Pools, Spas & Hot Tubs",https://homestars.com/on/hearst/swimming-pools-spas-hot-tubs,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Tree Service,https://homestars.com/on/hearst/tree-service,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Weed Control,https://homestars.com/on/hearst/weed-control,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Closet & Storage Solutions,https://homestars.com/on/hearst/closet-storage-solutions,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Junk Removal,https://homestars.com/on/hearst/junk-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Moving & Storage,https://homestars.com/on/hearst/moving-storage,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Organizing Products & Services,https://homestars.com/on/hearst/organizing-products-services,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Piano Moving & Tuning,https://homestars.com/on/hearst/piano-moving-tuning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Self Storage,https://homestars.com/on/hearst/self-storage,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Drain Services,https://homestars.com/on/hearst/drain-services,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Drainage Contractors,https://homestars.com/on/hearst/drainage-contractors,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Excavation,https://homestars.com/on/hearst/excavation-demolition,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Plumbing,https://homestars.com/on/hearst/plumbing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,"Septic Tank Cleaning, Repair & Installation",https://homestars.com/on/hearst/septic-tank-cleaning-repair-installation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Sprinkler Systems,https://homestars.com/on/hearst/sprinkler-systems,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Water Filtration & Purification,https://homestars.com/on/hearst/water-filtration-purification,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Gutters & Eavestroughs,https://homestars.com/on/hearst/gutters-eavestroughs,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Roofing,https://homestars.com/on/hearst/roofing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Skylight Installation & Repair,https://homestars.com/on/hearst/skylights,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Alarm Systems,https://homestars.com/on/hearst/alarm-systems,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,"Asbestos, Lead, and Radon Removal",https://homestars.com/on/hearst/asbestos-lead-removal,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Home Inspection,https://homestars.com/on/hearst/home-inspection,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Mold Detection & Removal,https://homestars.com/on/hearst/mold-detection-removal,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Pest & Animal Control,https://homestars.com/on/hearst/pest-animal-control,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Snow Removal,https://homestars.com/on/hearst/snow-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Siding,https://homestars.com/on/hearst/siding,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Stucco,https://homestars.com/on/hearst/stucco,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Art Metal Work,https://homestars.com/on/hearst/art-metal-work,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,BBQ Equipment & Service,https://homestars.com/on/hearst/bbq-equipment-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Decorative Concrete,https://homestars.com/on/hearst/decorative-concrete,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,"Elevators, Lifts & Ramps Installation & Service",https://homestars.com/on/hearst/elevators-lifts-ramps,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Concrete Contractors,https://homestars.com/on/hearst/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Countertops,https://homestars.com/on/hearst/countertops,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Decorative Concrete,https://homestars.com/on/hearst/decorative-concrete,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Interlocking Stone,https://homestars.com/on/hearst/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Masonry & Bricklaying,https://homestars.com/on/hearst/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Paving Contractors,https://homestars.com/on/hearst/paving-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Tile & Stone Contractors,https://homestars.com/on/hearst/tile-stone-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Tile and Grout Cleaning,https://homestars.com/on/hearst/tile-and-grout-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Tuck Pointing,https://homestars.com/on/hearst/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Drywall Contractors,https://homestars.com/on/hearst/drywall-contractors,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Insulation,https://homestars.com/on/hearst/insulation,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Paint & Wallpaper Contractors,https://homestars.com/on/hearst/paint-wallpaper-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Plastering,https://homestars.com/on/hearst/plastering,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Stucco,https://homestars.com/on/hearst/stucco,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Trim and Moldings,https://homestars.com/on/hearst/moldings,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Awnings & Canopies,https://homestars.com/on/hearst/awnings-canopies,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Bathroom & Kitchen - Fixtures & Accessories,https://homestars.com/on/hearst/bathroom-kitchen-fixtures-accessories,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Blinds Cleaning & Repairing,https://homestars.com/on/hearst/blinds-cleaning-repairing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Drapery & Curtains,https://homestars.com/on/hearst/drapery-curtains,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Drapery & Upholstery Cleaning,https://homestars.com/on/hearst/drapery-upholstery-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Locks & Locksmiths,https://homestars.com/on/hearst/locks-locksmiths,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Mirrors & Glass,https://homestars.com/on/hearst/mirrors-glass,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Shutters & Blinds,https://homestars.com/on/hearst/shutters-blinds,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Skylight Installation & Repair,https://homestars.com/on/hearst/skylights,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T18:40:59Z
+hearst,Window & Gutter Cleaning,https://homestars.com/on/hearst/window-gutter-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
+hearst,Windows & Doors Installation & Service,https://homestars.com/on/hearst/windows-doors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T18:40:59Z
