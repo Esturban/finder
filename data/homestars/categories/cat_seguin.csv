@@ -1,0 +1,190 @@
+City,Category,Link,page_status,status_code,update_time
+seguin,Basement Renovation,https://homestars.com/on/seguin/basement-renovation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Bathroom Renovation,https://homestars.com/on/seguin/bathroom-renovation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Condominium Renovations,https://homestars.com/on/seguin/condominium-renovations,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Decks,https://homestars.com/on/seguin/patios-decks,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Demolition,https://homestars.com/on/seguin/demolition,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,"Elevators, Lifts & Ramps Installation & Service",https://homestars.com/on/seguin/elevators-lifts-ramps,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Historical Restoration,https://homestars.com/on/seguin/historical-restoration,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Home Additions,https://homestars.com/on/seguin/home-additions,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Home Inspection,https://homestars.com/on/seguin/home-inspection,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Home Office Renovation,https://homestars.com/on/seguin/home-office-renovation,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Kitchen Planning & Renovation,https://homestars.com/on/seguin/kitchen-planning-renovation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Renovation Cleaning,https://homestars.com/on/seguin/renovation-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Architects,https://homestars.com/on/seguin/architects,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Builders,https://homestars.com/on/seguin/builders,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Concrete Contractors,https://homestars.com/on/seguin/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Design/Build,https://homestars.com/on/seguin/design-build,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Design/Project Management,https://homestars.com/on/seguin/design-project-management,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Drafting Service,https://homestars.com/on/seguin/drafting-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,General Contractors,https://homestars.com/on/seguin/general-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Renovation Advisors,https://homestars.com/on/seguin/renovation-advisors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Structural Engineering,https://homestars.com/on/seguin/structural-engineering,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Surveyors,https://homestars.com/on/seguin/surveyors,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Bathroom & Kitchen - Fixtures & Accessories,https://homestars.com/on/seguin/bathroom-kitchen-fixtures-accessories,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Cabinetry & Millwork,https://homestars.com/on/seguin/cabinetry-millwork,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Carpenters,https://homestars.com/on/seguin/carpenters,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Closet & Storage Solutions,https://homestars.com/on/seguin/closet-storage-solutions,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Decks,https://homestars.com/on/seguin/patios-decks,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,"Elevators, Lifts & Ramps Installation & Service",https://homestars.com/on/seguin/elevators-lifts-ramps,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Framing,https://homestars.com/on/seguin/framing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Kitchen & Bathroom - Cabinets & Design,https://homestars.com/on/seguin/kitchen-bathroom-cabinets-design,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Railings,https://homestars.com/on/seguin/railings,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Stair Builders,https://homestars.com/on/seguin/stair-builders,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Woodworking,https://homestars.com/on/seguin/woodworking,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Blinds Cleaning & Repairing,https://homestars.com/on/seguin/blinds-cleaning-repairing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Carpet & Rug Cleaning & Repairing,https://homestars.com/on/seguin/carpet-rug-cleaning-repairing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Drapery & Upholstery Cleaning,https://homestars.com/on/seguin/drapery-upholstery-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Duct Cleaning,https://homestars.com/on/seguin/duct-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Fire & Water Damage Restoration,https://homestars.com/on/seguin/fire-water-damage-restoration,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,House & Apartment Cleaning,https://homestars.com/on/seguin/house-apartment-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,House Cleaning Exteriors,https://homestars.com/on/seguin/house-cleaning-exteriors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Junk Removal,https://homestars.com/on/seguin/junk-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Renovation Cleaning,https://homestars.com/on/seguin/renovation-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,"Septic Tank Cleaning, Repair & Installation",https://homestars.com/on/seguin/septic-tank-cleaning-repair-installation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Tile and Grout Cleaning,https://homestars.com/on/seguin/tile-and-grout-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Window & Gutter Cleaning,https://homestars.com/on/seguin/window-gutter-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Chimney Build & Repair,https://homestars.com/on/seguin/chimney-build-repair,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Chimney Sweeps,https://homestars.com/on/seguin/chimney-sweeps,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Interlocking Stone,https://homestars.com/on/seguin/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Masonry & Bricklaying,https://homestars.com/on/seguin/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Tuck Pointing,https://homestars.com/on/seguin/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Waterproofing,https://homestars.com/on/seguin/waterproofing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Bathroom & Kitchen - Fixtures & Accessories,https://homestars.com/on/seguin/bathroom-kitchen-fixtures-accessories,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,"Game Rooms, Entertainment",https://homestars.com/on/seguin/game-rooms-entertainment,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Garage Design & Organization,https://homestars.com/on/seguin/garage-design-organization,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Home Staging,https://homestars.com/on/seguin/staging,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Interior Decorators,https://homestars.com/on/seguin/interior-decorators,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Interior Design,https://homestars.com/on/seguin/interior-design,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Kitchen & Bathroom - Cabinets & Design,https://homestars.com/on/seguin/kitchen-bathroom-cabinets-design,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Alarm Systems,https://homestars.com/on/seguin/alarm-systems,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Appliance Repair,https://homestars.com/on/seguin/appliance-repair,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Appliance Retailers,https://homestars.com/on/seguin/appliance-retailers,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Computer Repairs and Support,https://homestars.com/on/seguin/computer-repairs-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Electricians,https://homestars.com/on/seguin/electricians,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Electronic Repairs,https://homestars.com/on/seguin/electronic-repairs,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Home Automation,https://homestars.com/on/seguin/home-automation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Home Theater,https://homestars.com/on/seguin/home-theater,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Lighting,https://homestars.com/on/seguin/lighting,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Satellite Sales & Service,https://homestars.com/on/seguin/satellite-sales-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Vacuum Sales & Service,https://homestars.com/on/seguin/vacuum-sales-service,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Carpet & Rug Retailers,https://homestars.com/on/seguin/carpet-rug-retailers,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Carpet Installers,https://homestars.com/on/seguin/carpet-installers,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Concrete Contractors,https://homestars.com/on/seguin/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Decorative Concrete,https://homestars.com/on/seguin/decorative-concrete,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Floor Laying & Refinishing,https://homestars.com/on/seguin/floor-laying-refinishing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Floor Retailers,https://homestars.com/on/seguin/floor-retailers,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Interlocking Stone,https://homestars.com/on/seguin/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Masonry & Bricklaying,https://homestars.com/on/seguin/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Tile & Stone Contractors,https://homestars.com/on/seguin/tile-stone-contractors,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Tuck Pointing,https://homestars.com/on/seguin/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Excavation,https://homestars.com/on/seguin/excavation-demolition,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Foundations,https://homestars.com/on/seguin/foundations,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Interlocking Stone,https://homestars.com/on/seguin/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Masonry & Bricklaying,https://homestars.com/on/seguin/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Tuck Pointing,https://homestars.com/on/seguin/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Waterproofing,https://homestars.com/on/seguin/waterproofing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Furniture,https://homestars.com/on/seguin/furniture,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Furniture Designers & Custom Builders,https://homestars.com/on/seguin/furniture-designers-custom-builders,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Furniture Refinish & Repair,https://homestars.com/on/seguin/furniture-refinish-repair,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Furniture Rental,https://homestars.com/on/seguin/furniture-rental,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Home Staging,https://homestars.com/on/seguin/staging,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Upholsterers,https://homestars.com/on/seguin/upholsterers,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Closet & Storage Solutions,https://homestars.com/on/seguin/closet-storage-solutions,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Garage Design & Organization,https://homestars.com/on/seguin/garage-design-organization,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Garage Doors & Hardware,https://homestars.com/on/seguin/garage-doors-hardware,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Junk Removal,https://homestars.com/on/seguin/junk-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Moving & Storage,https://homestars.com/on/seguin/moving-storage,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Organizing Products & Services,https://homestars.com/on/seguin/organizing-products-services,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Electrical Vehicle Charging,https://homestars.com/on/seguin/electrical-vehicle-charging,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Green Products & Services,https://homestars.com/on/seguin/green-products-services,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Renewable Energy,https://homestars.com/on/seguin/renewable-energy,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Skylight Installation & Repair,https://homestars.com/on/seguin/skylights,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Solar Panels,https://homestars.com/on/seguin/solar-panels,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Solar Water Heating,https://homestars.com/on/seguin/solar-water-heating,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,"Sunrooms, Solariums & Greenhouses",https://homestars.com/on/seguin/sunrooms-solariums-greenhouses,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Appliance Repair,https://homestars.com/on/seguin/appliance-repair,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Building Supplies and Hardware,https://homestars.com/on/seguin/building-supplies-and-hardware,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Electricians,https://homestars.com/on/seguin/electricians,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Handyman Services,https://homestars.com/on/seguin/handyman-services,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Lighting,https://homestars.com/on/seguin/lighting,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Paint & Wallpaper Contractors,https://homestars.com/on/seguin/paint-wallpaper-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Plumbing,https://homestars.com/on/seguin/plumbing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,BBQ Equipment & Service,https://homestars.com/on/seguin/bbq-equipment-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Duct Cleaning,https://homestars.com/on/seguin/duct-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Fireplace Mantels,https://homestars.com/on/seguin/fireplace-mantels,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Fireplaces,https://homestars.com/on/seguin/fireplaces,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Gas Line Installation,https://homestars.com/on/seguin/gas-line-installation,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Heating & Air Conditioning,https://homestars.com/on/seguin/heating-air-conditioning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,BBQ Equipment & Service,https://homestars.com/on/seguin/bbq-equipment-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Concrete Contractors,https://homestars.com/on/seguin/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Decks,https://homestars.com/on/seguin/patios-decks,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Decorative Concrete,https://homestars.com/on/seguin/decorative-concrete,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Excavation,https://homestars.com/on/seguin/excavation-demolition,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Fences & Gates,https://homestars.com/on/seguin/fences-gates,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Garden Maintenance,https://homestars.com/on/seguin/garden-maintenance,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Gazebos & Sheds,https://homestars.com/on/seguin/gazebos-sheds,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Interlocking Stone,https://homestars.com/on/seguin/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Landscape Architects,https://homestars.com/on/seguin/landscape-architects,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Landscape Contractors & Designers,https://homestars.com/on/seguin/landscape-contractors-designers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Landscape Lighting,https://homestars.com/on/seguin/landscape-lighting,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Lawn Maintenance,https://homestars.com/on/seguin/lawn-maintenance,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Masonry & Bricklaying,https://homestars.com/on/seguin/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Sprinkler Systems,https://homestars.com/on/seguin/sprinkler-systems,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,"Swimming Pools, Spas & Hot Tubs",https://homestars.com/on/seguin/swimming-pools-spas-hot-tubs,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Tree Service,https://homestars.com/on/seguin/tree-service,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Weed Control,https://homestars.com/on/seguin/weed-control,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Closet & Storage Solutions,https://homestars.com/on/seguin/closet-storage-solutions,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Junk Removal,https://homestars.com/on/seguin/junk-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Moving & Storage,https://homestars.com/on/seguin/moving-storage,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Organizing Products & Services,https://homestars.com/on/seguin/organizing-products-services,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Piano Moving & Tuning,https://homestars.com/on/seguin/piano-moving-tuning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Self Storage,https://homestars.com/on/seguin/self-storage,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Drain Services,https://homestars.com/on/seguin/drain-services,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Drainage Contractors,https://homestars.com/on/seguin/drainage-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Excavation,https://homestars.com/on/seguin/excavation-demolition,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Plumbing,https://homestars.com/on/seguin/plumbing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,"Septic Tank Cleaning, Repair & Installation",https://homestars.com/on/seguin/septic-tank-cleaning-repair-installation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Sprinkler Systems,https://homestars.com/on/seguin/sprinkler-systems,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Water Filtration & Purification,https://homestars.com/on/seguin/water-filtration-purification,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Gutters & Eavestroughs,https://homestars.com/on/seguin/gutters-eavestroughs,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Roofing,https://homestars.com/on/seguin/roofing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Skylight Installation & Repair,https://homestars.com/on/seguin/skylights,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Alarm Systems,https://homestars.com/on/seguin/alarm-systems,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,"Asbestos, Lead, and Radon Removal",https://homestars.com/on/seguin/asbestos-lead-removal,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Home Inspection,https://homestars.com/on/seguin/home-inspection,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Mold Detection & Removal,https://homestars.com/on/seguin/mold-detection-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Pest & Animal Control,https://homestars.com/on/seguin/pest-animal-control,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Snow Removal,https://homestars.com/on/seguin/snow-removal,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Siding,https://homestars.com/on/seguin/siding,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Stucco,https://homestars.com/on/seguin/stucco,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Art Metal Work,https://homestars.com/on/seguin/art-metal-work,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,BBQ Equipment & Service,https://homestars.com/on/seguin/bbq-equipment-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Decorative Concrete,https://homestars.com/on/seguin/decorative-concrete,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,"Elevators, Lifts & Ramps Installation & Service",https://homestars.com/on/seguin/elevators-lifts-ramps,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Concrete Contractors,https://homestars.com/on/seguin/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Countertops,https://homestars.com/on/seguin/countertops,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Decorative Concrete,https://homestars.com/on/seguin/decorative-concrete,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Interlocking Stone,https://homestars.com/on/seguin/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Masonry & Bricklaying,https://homestars.com/on/seguin/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Paving Contractors,https://homestars.com/on/seguin/paving-contractors,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Tile & Stone Contractors,https://homestars.com/on/seguin/tile-stone-contractors,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Tile and Grout Cleaning,https://homestars.com/on/seguin/tile-and-grout-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Tuck Pointing,https://homestars.com/on/seguin/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Drywall Contractors,https://homestars.com/on/seguin/drywall-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Insulation,https://homestars.com/on/seguin/insulation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Paint & Wallpaper Contractors,https://homestars.com/on/seguin/paint-wallpaper-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Plastering,https://homestars.com/on/seguin/plastering,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Stucco,https://homestars.com/on/seguin/stucco,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Trim and Moldings,https://homestars.com/on/seguin/moldings,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Awnings & Canopies,https://homestars.com/on/seguin/awnings-canopies,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Bathroom & Kitchen - Fixtures & Accessories,https://homestars.com/on/seguin/bathroom-kitchen-fixtures-accessories,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Blinds Cleaning & Repairing,https://homestars.com/on/seguin/blinds-cleaning-repairing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Drapery & Curtains,https://homestars.com/on/seguin/drapery-curtains,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Drapery & Upholstery Cleaning,https://homestars.com/on/seguin/drapery-upholstery-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Locks & Locksmiths,https://homestars.com/on/seguin/locks-locksmiths,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Mirrors & Glass,https://homestars.com/on/seguin/mirrors-glass,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Shutters & Blinds,https://homestars.com/on/seguin/shutters-blinds,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Skylight Installation & Repair,https://homestars.com/on/seguin/skylights,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-18T03:34:21Z
+seguin,Window & Gutter Cleaning,https://homestars.com/on/seguin/window-gutter-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
+seguin,Windows & Doors Installation & Service,https://homestars.com/on/seguin/windows-doors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-18T03:34:21Z
