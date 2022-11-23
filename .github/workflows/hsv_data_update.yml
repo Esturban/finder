@@ -1,9 +1,9 @@
-name: 'Homestars Validation - Dev'
+name: 'Homestars Validation - Dev (Disabled)'
 
 on:
   push:
     branches:
-      - dev
+      - devv
     paths:
       - src/homestars/**
     

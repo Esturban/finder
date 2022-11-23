@@ -1,0 +1,190 @@
+City,Category,Link,page_status,status_code,update_time
+perry,Basement Renovation,https://homestars.com/on/perry/basement-renovation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Bathroom Renovation,https://homestars.com/on/perry/bathroom-renovation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Condominium Renovations,https://homestars.com/on/perry/condominium-renovations,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Decks,https://homestars.com/on/perry/patios-decks,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Demolition,https://homestars.com/on/perry/demolition,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,"Elevators, Lifts & Ramps Installation & Service",https://homestars.com/on/perry/elevators-lifts-ramps,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Historical Restoration,https://homestars.com/on/perry/historical-restoration,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Home Additions,https://homestars.com/on/perry/home-additions,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Home Inspection,https://homestars.com/on/perry/home-inspection,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Home Office Renovation,https://homestars.com/on/perry/home-office-renovation,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Kitchen Planning & Renovation,https://homestars.com/on/perry/kitchen-planning-renovation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Renovation Cleaning,https://homestars.com/on/perry/renovation-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Architects,https://homestars.com/on/perry/architects,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Builders,https://homestars.com/on/perry/builders,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Concrete Contractors,https://homestars.com/on/perry/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Design/Build,https://homestars.com/on/perry/design-build,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Design/Project Management,https://homestars.com/on/perry/design-project-management,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Drafting Service,https://homestars.com/on/perry/drafting-service,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,General Contractors,https://homestars.com/on/perry/general-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Renovation Advisors,https://homestars.com/on/perry/renovation-advisors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Structural Engineering,https://homestars.com/on/perry/structural-engineering,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Surveyors,https://homestars.com/on/perry/surveyors,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Bathroom & Kitchen - Fixtures & Accessories,https://homestars.com/on/perry/bathroom-kitchen-fixtures-accessories,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Cabinetry & Millwork,https://homestars.com/on/perry/cabinetry-millwork,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Carpenters,https://homestars.com/on/perry/carpenters,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Closet & Storage Solutions,https://homestars.com/on/perry/closet-storage-solutions,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Decks,https://homestars.com/on/perry/patios-decks,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,"Elevators, Lifts & Ramps Installation & Service",https://homestars.com/on/perry/elevators-lifts-ramps,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Framing,https://homestars.com/on/perry/framing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Kitchen & Bathroom - Cabinets & Design,https://homestars.com/on/perry/kitchen-bathroom-cabinets-design,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Railings,https://homestars.com/on/perry/railings,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Stair Builders,https://homestars.com/on/perry/stair-builders,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Woodworking,https://homestars.com/on/perry/woodworking,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Blinds Cleaning & Repairing,https://homestars.com/on/perry/blinds-cleaning-repairing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Carpet & Rug Cleaning & Repairing,https://homestars.com/on/perry/carpet-rug-cleaning-repairing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Drapery & Upholstery Cleaning,https://homestars.com/on/perry/drapery-upholstery-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Duct Cleaning,https://homestars.com/on/perry/duct-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Fire & Water Damage Restoration,https://homestars.com/on/perry/fire-water-damage-restoration,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,House & Apartment Cleaning,https://homestars.com/on/perry/house-apartment-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,House Cleaning Exteriors,https://homestars.com/on/perry/house-cleaning-exteriors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Junk Removal,https://homestars.com/on/perry/junk-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Renovation Cleaning,https://homestars.com/on/perry/renovation-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,"Septic Tank Cleaning, Repair & Installation",https://homestars.com/on/perry/septic-tank-cleaning-repair-installation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Tile and Grout Cleaning,https://homestars.com/on/perry/tile-and-grout-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Window & Gutter Cleaning,https://homestars.com/on/perry/window-gutter-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Chimney Build & Repair,https://homestars.com/on/perry/chimney-build-repair,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Chimney Sweeps,https://homestars.com/on/perry/chimney-sweeps,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Interlocking Stone,https://homestars.com/on/perry/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Masonry & Bricklaying,https://homestars.com/on/perry/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Tuck Pointing,https://homestars.com/on/perry/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Waterproofing,https://homestars.com/on/perry/waterproofing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Bathroom & Kitchen - Fixtures & Accessories,https://homestars.com/on/perry/bathroom-kitchen-fixtures-accessories,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,"Game Rooms, Entertainment",https://homestars.com/on/perry/game-rooms-entertainment,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Garage Design & Organization,https://homestars.com/on/perry/garage-design-organization,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Home Staging,https://homestars.com/on/perry/staging,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Interior Decorators,https://homestars.com/on/perry/interior-decorators,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Interior Design,https://homestars.com/on/perry/interior-design,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Kitchen & Bathroom - Cabinets & Design,https://homestars.com/on/perry/kitchen-bathroom-cabinets-design,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Alarm Systems,https://homestars.com/on/perry/alarm-systems,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Appliance Repair,https://homestars.com/on/perry/appliance-repair,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Appliance Retailers,https://homestars.com/on/perry/appliance-retailers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Computer Repairs and Support,https://homestars.com/on/perry/computer-repairs-service,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Electricians,https://homestars.com/on/perry/electricians,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Electronic Repairs,https://homestars.com/on/perry/electronic-repairs,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Home Automation,https://homestars.com/on/perry/home-automation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Home Theater,https://homestars.com/on/perry/home-theater,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Lighting,https://homestars.com/on/perry/lighting,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Satellite Sales & Service,https://homestars.com/on/perry/satellite-sales-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Vacuum Sales & Service,https://homestars.com/on/perry/vacuum-sales-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Carpet & Rug Retailers,https://homestars.com/on/perry/carpet-rug-retailers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Carpet Installers,https://homestars.com/on/perry/carpet-installers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Concrete Contractors,https://homestars.com/on/perry/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Decorative Concrete,https://homestars.com/on/perry/decorative-concrete,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Floor Laying & Refinishing,https://homestars.com/on/perry/floor-laying-refinishing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Floor Retailers,https://homestars.com/on/perry/floor-retailers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Interlocking Stone,https://homestars.com/on/perry/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Masonry & Bricklaying,https://homestars.com/on/perry/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Tile & Stone Contractors,https://homestars.com/on/perry/tile-stone-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Tuck Pointing,https://homestars.com/on/perry/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Excavation,https://homestars.com/on/perry/excavation-demolition,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Foundations,https://homestars.com/on/perry/foundations,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Interlocking Stone,https://homestars.com/on/perry/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Masonry & Bricklaying,https://homestars.com/on/perry/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Tuck Pointing,https://homestars.com/on/perry/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Waterproofing,https://homestars.com/on/perry/waterproofing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Furniture,https://homestars.com/on/perry/furniture,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Furniture Designers & Custom Builders,https://homestars.com/on/perry/furniture-designers-custom-builders,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Furniture Refinish & Repair,https://homestars.com/on/perry/furniture-refinish-repair,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Furniture Rental,https://homestars.com/on/perry/furniture-rental,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Home Staging,https://homestars.com/on/perry/staging,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Upholsterers,https://homestars.com/on/perry/upholsterers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Closet & Storage Solutions,https://homestars.com/on/perry/closet-storage-solutions,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Garage Design & Organization,https://homestars.com/on/perry/garage-design-organization,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Garage Doors & Hardware,https://homestars.com/on/perry/garage-doors-hardware,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Junk Removal,https://homestars.com/on/perry/junk-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Moving & Storage,https://homestars.com/on/perry/moving-storage,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Organizing Products & Services,https://homestars.com/on/perry/organizing-products-services,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Electrical Vehicle Charging,https://homestars.com/on/perry/electrical-vehicle-charging,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Green Products & Services,https://homestars.com/on/perry/green-products-services,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Renewable Energy,https://homestars.com/on/perry/renewable-energy,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Skylight Installation & Repair,https://homestars.com/on/perry/skylights,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Solar Panels,https://homestars.com/on/perry/solar-panels,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Solar Water Heating,https://homestars.com/on/perry/solar-water-heating,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,"Sunrooms, Solariums & Greenhouses",https://homestars.com/on/perry/sunrooms-solariums-greenhouses,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Appliance Repair,https://homestars.com/on/perry/appliance-repair,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Building Supplies and Hardware,https://homestars.com/on/perry/building-supplies-and-hardware,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Electricians,https://homestars.com/on/perry/electricians,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Handyman Services,https://homestars.com/on/perry/handyman-services,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Lighting,https://homestars.com/on/perry/lighting,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Paint & Wallpaper Contractors,https://homestars.com/on/perry/paint-wallpaper-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Plumbing,https://homestars.com/on/perry/plumbing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,BBQ Equipment & Service,https://homestars.com/on/perry/bbq-equipment-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Duct Cleaning,https://homestars.com/on/perry/duct-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Fireplace Mantels,https://homestars.com/on/perry/fireplace-mantels,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Fireplaces,https://homestars.com/on/perry/fireplaces,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Gas Line Installation,https://homestars.com/on/perry/gas-line-installation,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Heating & Air Conditioning,https://homestars.com/on/perry/heating-air-conditioning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,BBQ Equipment & Service,https://homestars.com/on/perry/bbq-equipment-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Concrete Contractors,https://homestars.com/on/perry/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Decks,https://homestars.com/on/perry/patios-decks,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Decorative Concrete,https://homestars.com/on/perry/decorative-concrete,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Excavation,https://homestars.com/on/perry/excavation-demolition,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Fences & Gates,https://homestars.com/on/perry/fences-gates,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Garden Maintenance,https://homestars.com/on/perry/garden-maintenance,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Gazebos & Sheds,https://homestars.com/on/perry/gazebos-sheds,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Interlocking Stone,https://homestars.com/on/perry/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Landscape Architects,https://homestars.com/on/perry/landscape-architects,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Landscape Contractors & Designers,https://homestars.com/on/perry/landscape-contractors-designers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Landscape Lighting,https://homestars.com/on/perry/landscape-lighting,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Lawn Maintenance,https://homestars.com/on/perry/lawn-maintenance,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Masonry & Bricklaying,https://homestars.com/on/perry/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Sprinkler Systems,https://homestars.com/on/perry/sprinkler-systems,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,"Swimming Pools, Spas & Hot Tubs",https://homestars.com/on/perry/swimming-pools-spas-hot-tubs,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Tree Service,https://homestars.com/on/perry/tree-service,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Weed Control,https://homestars.com/on/perry/weed-control,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Closet & Storage Solutions,https://homestars.com/on/perry/closet-storage-solutions,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Junk Removal,https://homestars.com/on/perry/junk-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Moving & Storage,https://homestars.com/on/perry/moving-storage,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Organizing Products & Services,https://homestars.com/on/perry/organizing-products-services,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Piano Moving & Tuning,https://homestars.com/on/perry/piano-moving-tuning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Self Storage,https://homestars.com/on/perry/self-storage,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Drain Services,https://homestars.com/on/perry/drain-services,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Drainage Contractors,https://homestars.com/on/perry/drainage-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Excavation,https://homestars.com/on/perry/excavation-demolition,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Plumbing,https://homestars.com/on/perry/plumbing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,"Septic Tank Cleaning, Repair & Installation",https://homestars.com/on/perry/septic-tank-cleaning-repair-installation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Sprinkler Systems,https://homestars.com/on/perry/sprinkler-systems,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Water Filtration & Purification,https://homestars.com/on/perry/water-filtration-purification,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Gutters & Eavestroughs,https://homestars.com/on/perry/gutters-eavestroughs,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Roofing,https://homestars.com/on/perry/roofing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Skylight Installation & Repair,https://homestars.com/on/perry/skylights,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Alarm Systems,https://homestars.com/on/perry/alarm-systems,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,"Asbestos, Lead, and Radon Removal",https://homestars.com/on/perry/asbestos-lead-removal,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Home Inspection,https://homestars.com/on/perry/home-inspection,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Mold Detection & Removal,https://homestars.com/on/perry/mold-detection-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Pest & Animal Control,https://homestars.com/on/perry/pest-animal-control,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Snow Removal,https://homestars.com/on/perry/snow-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Siding,https://homestars.com/on/perry/siding,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Stucco,https://homestars.com/on/perry/stucco,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Art Metal Work,https://homestars.com/on/perry/art-metal-work,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,BBQ Equipment & Service,https://homestars.com/on/perry/bbq-equipment-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Decorative Concrete,https://homestars.com/on/perry/decorative-concrete,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,"Elevators, Lifts & Ramps Installation & Service",https://homestars.com/on/perry/elevators-lifts-ramps,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Concrete Contractors,https://homestars.com/on/perry/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Countertops,https://homestars.com/on/perry/countertops,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Decorative Concrete,https://homestars.com/on/perry/decorative-concrete,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Interlocking Stone,https://homestars.com/on/perry/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Masonry & Bricklaying,https://homestars.com/on/perry/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Paving Contractors,https://homestars.com/on/perry/paving-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Tile & Stone Contractors,https://homestars.com/on/perry/tile-stone-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Tile and Grout Cleaning,https://homestars.com/on/perry/tile-and-grout-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Tuck Pointing,https://homestars.com/on/perry/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Drywall Contractors,https://homestars.com/on/perry/drywall-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Insulation,https://homestars.com/on/perry/insulation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Paint & Wallpaper Contractors,https://homestars.com/on/perry/paint-wallpaper-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Plastering,https://homestars.com/on/perry/plastering,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Stucco,https://homestars.com/on/perry/stucco,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Trim and Moldings,https://homestars.com/on/perry/moldings,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Awnings & Canopies,https://homestars.com/on/perry/awnings-canopies,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Bathroom & Kitchen - Fixtures & Accessories,https://homestars.com/on/perry/bathroom-kitchen-fixtures-accessories,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Blinds Cleaning & Repairing,https://homestars.com/on/perry/blinds-cleaning-repairing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Drapery & Curtains,https://homestars.com/on/perry/drapery-curtains,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Drapery & Upholstery Cleaning,https://homestars.com/on/perry/drapery-upholstery-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Locks & Locksmiths,https://homestars.com/on/perry/locks-locksmiths,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Mirrors & Glass,https://homestars.com/on/perry/mirrors-glass,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Shutters & Blinds,https://homestars.com/on/perry/shutters-blinds,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Skylight Installation & Repair,https://homestars.com/on/perry/skylights,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-17T12:12:17Z
+perry,Window & Gutter Cleaning,https://homestars.com/on/perry/window-gutter-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
+perry,Windows & Doors Installation & Service,https://homestars.com/on/perry/windows-doors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-17T12:12:17Z
