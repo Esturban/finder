@@ -1,0 +1,190 @@
+City,Category,Link,page_status,status_code,update_time
+manchester,Basement Renovation,https://homestars.com/on/manchester/basement-renovation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Bathroom Renovation,https://homestars.com/on/manchester/bathroom-renovation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Condominium Renovations,https://homestars.com/on/manchester/condominium-renovations,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Decks,https://homestars.com/on/manchester/patios-decks,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Demolition,https://homestars.com/on/manchester/demolition,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,"Elevators, Lifts & Ramps Installation & Service",https://homestars.com/on/manchester/elevators-lifts-ramps,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Historical Restoration,https://homestars.com/on/manchester/historical-restoration,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Home Additions,https://homestars.com/on/manchester/home-additions,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Home Inspection,https://homestars.com/on/manchester/home-inspection,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Home Office Renovation,https://homestars.com/on/manchester/home-office-renovation,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Kitchen Planning & Renovation,https://homestars.com/on/manchester/kitchen-planning-renovation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Renovation Cleaning,https://homestars.com/on/manchester/renovation-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Architects,https://homestars.com/on/manchester/architects,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Builders,https://homestars.com/on/manchester/builders,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Concrete Contractors,https://homestars.com/on/manchester/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Design/Build,https://homestars.com/on/manchester/design-build,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Design/Project Management,https://homestars.com/on/manchester/design-project-management,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Drafting Service,https://homestars.com/on/manchester/drafting-service,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,General Contractors,https://homestars.com/on/manchester/general-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Renovation Advisors,https://homestars.com/on/manchester/renovation-advisors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Structural Engineering,https://homestars.com/on/manchester/structural-engineering,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Surveyors,https://homestars.com/on/manchester/surveyors,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Bathroom & Kitchen - Fixtures & Accessories,https://homestars.com/on/manchester/bathroom-kitchen-fixtures-accessories,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Cabinetry & Millwork,https://homestars.com/on/manchester/cabinetry-millwork,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Carpenters,https://homestars.com/on/manchester/carpenters,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Closet & Storage Solutions,https://homestars.com/on/manchester/closet-storage-solutions,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Decks,https://homestars.com/on/manchester/patios-decks,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,"Elevators, Lifts & Ramps Installation & Service",https://homestars.com/on/manchester/elevators-lifts-ramps,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Framing,https://homestars.com/on/manchester/framing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Kitchen & Bathroom - Cabinets & Design,https://homestars.com/on/manchester/kitchen-bathroom-cabinets-design,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Railings,https://homestars.com/on/manchester/railings,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Stair Builders,https://homestars.com/on/manchester/stair-builders,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Woodworking,https://homestars.com/on/manchester/woodworking,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Blinds Cleaning & Repairing,https://homestars.com/on/manchester/blinds-cleaning-repairing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Carpet & Rug Cleaning & Repairing,https://homestars.com/on/manchester/carpet-rug-cleaning-repairing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Drapery & Upholstery Cleaning,https://homestars.com/on/manchester/drapery-upholstery-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Duct Cleaning,https://homestars.com/on/manchester/duct-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Fire & Water Damage Restoration,https://homestars.com/on/manchester/fire-water-damage-restoration,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,House & Apartment Cleaning,https://homestars.com/on/manchester/house-apartment-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,House Cleaning Exteriors,https://homestars.com/on/manchester/house-cleaning-exteriors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Junk Removal,https://homestars.com/on/manchester/junk-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Renovation Cleaning,https://homestars.com/on/manchester/renovation-cleaning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,"Septic Tank Cleaning, Repair & Installation",https://homestars.com/on/manchester/septic-tank-cleaning-repair-installation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Tile and Grout Cleaning,https://homestars.com/on/manchester/tile-and-grout-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Window & Gutter Cleaning,https://homestars.com/on/manchester/window-gutter-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Chimney Build & Repair,https://homestars.com/on/manchester/chimney-build-repair,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Chimney Sweeps,https://homestars.com/on/manchester/chimney-sweeps,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Interlocking Stone,https://homestars.com/on/manchester/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Masonry & Bricklaying,https://homestars.com/on/manchester/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Tuck Pointing,https://homestars.com/on/manchester/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Waterproofing,https://homestars.com/on/manchester/waterproofing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Bathroom & Kitchen - Fixtures & Accessories,https://homestars.com/on/manchester/bathroom-kitchen-fixtures-accessories,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,"Game Rooms, Entertainment",https://homestars.com/on/manchester/game-rooms-entertainment,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Garage Design & Organization,https://homestars.com/on/manchester/garage-design-organization,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Home Staging,https://homestars.com/on/manchester/staging,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Interior Decorators,https://homestars.com/on/manchester/interior-decorators,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Interior Design,https://homestars.com/on/manchester/interior-design,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Kitchen & Bathroom - Cabinets & Design,https://homestars.com/on/manchester/kitchen-bathroom-cabinets-design,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Alarm Systems,https://homestars.com/on/manchester/alarm-systems,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Appliance Repair,https://homestars.com/on/manchester/appliance-repair,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Appliance Retailers,https://homestars.com/on/manchester/appliance-retailers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Computer Repairs and Support,https://homestars.com/on/manchester/computer-repairs-service,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Electricians,https://homestars.com/on/manchester/electricians,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Electronic Repairs,https://homestars.com/on/manchester/electronic-repairs,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Home Automation,https://homestars.com/on/manchester/home-automation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Home Theater,https://homestars.com/on/manchester/home-theater,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Lighting,https://homestars.com/on/manchester/lighting,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Satellite Sales & Service,https://homestars.com/on/manchester/satellite-sales-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Vacuum Sales & Service,https://homestars.com/on/manchester/vacuum-sales-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Carpet & Rug Retailers,https://homestars.com/on/manchester/carpet-rug-retailers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Carpet Installers,https://homestars.com/on/manchester/carpet-installers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Concrete Contractors,https://homestars.com/on/manchester/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Decorative Concrete,https://homestars.com/on/manchester/decorative-concrete,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Floor Laying & Refinishing,https://homestars.com/on/manchester/floor-laying-refinishing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Floor Retailers,https://homestars.com/on/manchester/floor-retailers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Interlocking Stone,https://homestars.com/on/manchester/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Masonry & Bricklaying,https://homestars.com/on/manchester/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Tile & Stone Contractors,https://homestars.com/on/manchester/tile-stone-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Tuck Pointing,https://homestars.com/on/manchester/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Excavation,https://homestars.com/on/manchester/excavation-demolition,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Foundations,https://homestars.com/on/manchester/foundations,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Interlocking Stone,https://homestars.com/on/manchester/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Masonry & Bricklaying,https://homestars.com/on/manchester/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Tuck Pointing,https://homestars.com/on/manchester/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Waterproofing,https://homestars.com/on/manchester/waterproofing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Furniture,https://homestars.com/on/manchester/furniture,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Furniture Designers & Custom Builders,https://homestars.com/on/manchester/furniture-designers-custom-builders,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Furniture Refinish & Repair,https://homestars.com/on/manchester/furniture-refinish-repair,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Furniture Rental,https://homestars.com/on/manchester/furniture-rental,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Home Staging,https://homestars.com/on/manchester/staging,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Upholsterers,https://homestars.com/on/manchester/upholsterers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Closet & Storage Solutions,https://homestars.com/on/manchester/closet-storage-solutions,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Garage Design & Organization,https://homestars.com/on/manchester/garage-design-organization,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Garage Doors & Hardware,https://homestars.com/on/manchester/garage-doors-hardware,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Junk Removal,https://homestars.com/on/manchester/junk-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Moving & Storage,https://homestars.com/on/manchester/moving-storage,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Organizing Products & Services,https://homestars.com/on/manchester/organizing-products-services,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Electrical Vehicle Charging,https://homestars.com/on/manchester/electrical-vehicle-charging,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Green Products & Services,https://homestars.com/on/manchester/green-products-services,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Renewable Energy,https://homestars.com/on/manchester/renewable-energy,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Skylight Installation & Repair,https://homestars.com/on/manchester/skylights,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Solar Panels,https://homestars.com/on/manchester/solar-panels,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Solar Water Heating,https://homestars.com/on/manchester/solar-water-heating,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,"Sunrooms, Solariums & Greenhouses",https://homestars.com/on/manchester/sunrooms-solariums-greenhouses,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Appliance Repair,https://homestars.com/on/manchester/appliance-repair,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Building Supplies and Hardware,https://homestars.com/on/manchester/building-supplies-and-hardware,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Electricians,https://homestars.com/on/manchester/electricians,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Handyman Services,https://homestars.com/on/manchester/handyman-services,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Lighting,https://homestars.com/on/manchester/lighting,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Paint & Wallpaper Contractors,https://homestars.com/on/manchester/paint-wallpaper-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Plumbing,https://homestars.com/on/manchester/plumbing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,BBQ Equipment & Service,https://homestars.com/on/manchester/bbq-equipment-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Duct Cleaning,https://homestars.com/on/manchester/duct-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Fireplace Mantels,https://homestars.com/on/manchester/fireplace-mantels,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Fireplaces,https://homestars.com/on/manchester/fireplaces,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Gas Line Installation,https://homestars.com/on/manchester/gas-line-installation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Heating & Air Conditioning,https://homestars.com/on/manchester/heating-air-conditioning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,BBQ Equipment & Service,https://homestars.com/on/manchester/bbq-equipment-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Concrete Contractors,https://homestars.com/on/manchester/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Decks,https://homestars.com/on/manchester/patios-decks,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Decorative Concrete,https://homestars.com/on/manchester/decorative-concrete,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Excavation,https://homestars.com/on/manchester/excavation-demolition,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Fences & Gates,https://homestars.com/on/manchester/fences-gates,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Garden Maintenance,https://homestars.com/on/manchester/garden-maintenance,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Gazebos & Sheds,https://homestars.com/on/manchester/gazebos-sheds,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Interlocking Stone,https://homestars.com/on/manchester/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Landscape Architects,https://homestars.com/on/manchester/landscape-architects,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Landscape Contractors & Designers,https://homestars.com/on/manchester/landscape-contractors-designers,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Landscape Lighting,https://homestars.com/on/manchester/landscape-lighting,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Lawn Maintenance,https://homestars.com/on/manchester/lawn-maintenance,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Masonry & Bricklaying,https://homestars.com/on/manchester/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Sprinkler Systems,https://homestars.com/on/manchester/sprinkler-systems,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,"Swimming Pools, Spas & Hot Tubs",https://homestars.com/on/manchester/swimming-pools-spas-hot-tubs,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Tree Service,https://homestars.com/on/manchester/tree-service,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Weed Control,https://homestars.com/on/manchester/weed-control,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Closet & Storage Solutions,https://homestars.com/on/manchester/closet-storage-solutions,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Junk Removal,https://homestars.com/on/manchester/junk-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Moving & Storage,https://homestars.com/on/manchester/moving-storage,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Organizing Products & Services,https://homestars.com/on/manchester/organizing-products-services,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Piano Moving & Tuning,https://homestars.com/on/manchester/piano-moving-tuning,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Self Storage,https://homestars.com/on/manchester/self-storage,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Drain Services,https://homestars.com/on/manchester/drain-services,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Drainage Contractors,https://homestars.com/on/manchester/drainage-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Excavation,https://homestars.com/on/manchester/excavation-demolition,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Plumbing,https://homestars.com/on/manchester/plumbing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,"Septic Tank Cleaning, Repair & Installation",https://homestars.com/on/manchester/septic-tank-cleaning-repair-installation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Sprinkler Systems,https://homestars.com/on/manchester/sprinkler-systems,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Water Filtration & Purification,https://homestars.com/on/manchester/water-filtration-purification,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Gutters & Eavestroughs,https://homestars.com/on/manchester/gutters-eavestroughs,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Roofing,https://homestars.com/on/manchester/roofing,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Skylight Installation & Repair,https://homestars.com/on/manchester/skylights,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Alarm Systems,https://homestars.com/on/manchester/alarm-systems,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,"Asbestos, Lead, and Radon Removal",https://homestars.com/on/manchester/asbestos-lead-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Home Inspection,https://homestars.com/on/manchester/home-inspection,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Mold Detection & Removal,https://homestars.com/on/manchester/mold-detection-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Pest & Animal Control,https://homestars.com/on/manchester/pest-animal-control,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Snow Removal,https://homestars.com/on/manchester/snow-removal,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Siding,https://homestars.com/on/manchester/siding,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Stucco,https://homestars.com/on/manchester/stucco,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Art Metal Work,https://homestars.com/on/manchester/art-metal-work,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,BBQ Equipment & Service,https://homestars.com/on/manchester/bbq-equipment-service,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Decorative Concrete,https://homestars.com/on/manchester/decorative-concrete,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,"Elevators, Lifts & Ramps Installation & Service",https://homestars.com/on/manchester/elevators-lifts-ramps,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Concrete Contractors,https://homestars.com/on/manchester/concrete-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Countertops,https://homestars.com/on/manchester/countertops,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Decorative Concrete,https://homestars.com/on/manchester/decorative-concrete,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Interlocking Stone,https://homestars.com/on/manchester/interlocking-stone,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Masonry & Bricklaying,https://homestars.com/on/manchester/masonry-bricklaying,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Paving Contractors,https://homestars.com/on/manchester/paving-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Tile & Stone Contractors,https://homestars.com/on/manchester/tile-stone-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Tile and Grout Cleaning,https://homestars.com/on/manchester/tile-and-grout-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Tuck Pointing,https://homestars.com/on/manchester/chimney-tuck-pointing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Drywall Contractors,https://homestars.com/on/manchester/drywall-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Insulation,https://homestars.com/on/manchester/insulation,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Paint & Wallpaper Contractors,https://homestars.com/on/manchester/paint-wallpaper-contractors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Plastering,https://homestars.com/on/manchester/plastering,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Stucco,https://homestars.com/on/manchester/stucco,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Trim and Moldings,https://homestars.com/on/manchester/moldings,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Awnings & Canopies,https://homestars.com/on/manchester/awnings-canopies,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Bathroom & Kitchen - Fixtures & Accessories,https://homestars.com/on/manchester/bathroom-kitchen-fixtures-accessories,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Blinds Cleaning & Repairing,https://homestars.com/on/manchester/blinds-cleaning-repairing,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Drapery & Curtains,https://homestars.com/on/manchester/drapery-curtains,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Drapery & Upholstery Cleaning,https://homestars.com/on/manchester/drapery-upholstery-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Locks & Locksmiths,https://homestars.com/on/manchester/locks-locksmiths,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Mirrors & Glass,https://homestars.com/on/manchester/mirrors-glass,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Shutters & Blinds,https://homestars.com/on/manchester/shutters-blinds,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Skylight Installation & Repair,https://homestars.com/on/manchester/skylights,"{""category"":""Client error"",""reason"":""Not Found"",""message"":""Client error: (404) Not Found""}",,2022-11-16T01:36:52Z
+manchester,Window & Gutter Cleaning,https://homestars.com/on/manchester/window-gutter-cleaning,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
+manchester,Windows & Doors Installation & Service,https://homestars.com/on/manchester/windows-doors,"{""category"":""Success"",""reason"":""OK"",""message"":""Success: (200) OK""}",,2022-11-16T01:36:52Z
