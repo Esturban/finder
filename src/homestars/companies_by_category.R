@@ -13,7 +13,7 @@ test_companies <-
   lapply(all_cc_csvs_paths, function(x) {
     readr::read_csv(x, show_col_types = F) %>%
       dplyr::mutate(
-        n_hits = as.numeric(n_hits),
+        n_hits = ifelse(exists("n_hits"), as.character(n_hits), NA_character_),
         project_minimum = ifelse(exists("project_minimum"), as.character(project_minimum), NA_character_),
         project_rate = ifelse(exists("project_rate"), as.character(project_rate), NA_character_),
         diplomas = ifelse(exists("diplomas"), as.character(diplomas), NA_character_),
@@ -31,7 +31,7 @@ end <- Sys.time()
 end - start
 
 # readr::write_csv(test_companies,file = here::here("data","homestars","categories","companies_details_test.csv"))
-# saveRDS(test_companies,file = here::here("data","homestars","categories","companies_details_test.RDS"))
+saveRDS(test_companies,file = here::here("data","homestars","categories","companies_details_test.RDS"))
 test_companies<-readRDS(file = here::here("data","homestars","categories","companies_details_test.RDS"))
 length(unique(test_companies$hs_path))
 length(unique(test_companies$parent_company_id))
