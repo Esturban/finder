@@ -32,7 +32,7 @@ end - start
 
 # readr::write_csv(test_companies,file = here::here("data","homestars","categories","companies_details_test.csv"))
 saveRDS(test_companies,file = here::here("data","homestars","categories","companies_details_test.RDS"))
-test_companies<-readRDS(file = here::here("data","homestars","categories","companies_details_test.RDS"))
+# test_companies<-readRDS(file = here::here("data","homestars","categories","companies_details_test.RDS"))
 length(unique(test_companies$hs_path))
 length(unique(test_companies$parent_company_id))
 length(unique(test_companies$url))
