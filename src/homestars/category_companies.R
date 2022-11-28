@@ -12,6 +12,7 @@ categories_unq <- readRDS(
   )
 )
 
+
 start<-Sys.time()
 unique_cat_links<-categories_unq %>%
   dplyr::filter(status_code == 200) %>%
