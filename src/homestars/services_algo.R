@@ -1,7 +1,9 @@
 require(tidyverse)
 require(rvest)
 require(rjson)
-services_companies <-readRDS(file = here::here("data","homestars","categories","companies_details_test.RDS")) %>% dplyr::select(category, url, name, hs_path) %>% .[!duplicated(.$url), ]
+services_companies <-readRDS(file = here::here("data","homestars","categories","companies_links_unq.RDS"))
+# %>% dplyr::select(category, url, name, hs_path) %>% .[!duplicated(.$url), ]
+# saveRDS(services_companies,here::here("data","homestars","categories","companies_links_unq.RDS"))
 sapply(list.files(here::here("src", "fns"), full.names = T), source, local = F)
 
 start<-Sys.time()
