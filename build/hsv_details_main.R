@@ -1,4 +1,7 @@
 # hsv_details
+
+#HSV = Homestars Validation of Company details 
+#
 source(here::here("setup.R"), F)
 
 hs_load <-F
