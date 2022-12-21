@@ -1,6 +1,11 @@
 # homestars_category_validation
 source(here::here("setup.R"), F)
 
+# The purpose of this build job is to find all of the corresponding categories from
+# homestars for each of the corresponding cities ( 4000+ cities with 189 categories) 
+# and checking if the sites are valid or simply categories that are populated 
+# 
+# Testing and checking ~ 800k links with httr package
 hs_load <-F
 hs_tform <-F
 sapply(list.files(here::here("src","fns"),full.names = T),source,local = F)
