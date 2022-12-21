@@ -1,7 +1,6 @@
 # hs_categories
 #Scraping all of the homestars categories
 
-# sapply(list.files(here::here("src","fns"),full.names = T),source,local = F)
 test_it <- F
 #Gather all of the categories up front
 "https://homestars.com/on/toronto/categories" %>% read_html -> all_cat_page
@@ -33,7 +32,6 @@ city_cats <- lapply(1:length(cities), function(x) {
   )
 }) %>% dplyr::bind_rows(.)
 
-# city_cats%>%dplyr::filter(City =='toronto')%>%readr::write_csv(x = .,file = "data/homestars/toronto_categories_sample.csv")
 #Testing not enabled at this time
 if(test_it)source(here::here("src","homestars","TEST","test_homestar_categories.R"),F)
 

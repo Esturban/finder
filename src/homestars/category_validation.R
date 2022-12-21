@@ -1,13 +1,16 @@
 # homestar_category_validation
 start <- Sys.time()
-#Only review 350 random cities at a time
-# lapply(cities[sample.int(length(cities),350)], function(x) { 
+#By city, grab all of the category links, determine if an authentication csv exists
+# and then begin testing the http status with the HTTR package.
+#
+#This is for 
 lapply(cities, function(x) {
   #City being analyzed
   if (!file.exists(here::here(
     "data",
     "homestars",
     "categories",
+    "auth",
     paste0("cat_", gsub("[[:punct:]]|[[:blank:]]", "", x), ".csv")
   ))) {
   
@@ -32,22 +35,24 @@ lapply(cities, function(x) {
           # print(res)
           return(res)
         }),
+        #Clean up and collect the status code message
         status_code = purrr::map(.x = page_status,  ~ gsub(
           "[\\(\\)]", "", regmatches(.x$message, gregexpr("\\(.*?\\)", .x$message))[[1]]
         ))
       ) -> city_dataset
-    
+    #Append the runtime and the full JSON as character into the csv
     city_dataset %>% dplyr::mutate(
       page_status = purrr::map_chr(.x = page_status,  ~ rjson::toJSON(.x)),
       update_time = Sys.time()
     ) -> city_dataset
-    if (!dir.exists(here::here("data", "homestars", "categories")))
-      dir.create(here::here("data", "homestars", "categories"))
+    if (!dir.exists(here::here("data", "homestars", "categories","auth")))
+      dir.create(here::here("data", "homestars", "categories","auth"))
     readr::write_csv(city_dataset,
                      file = here::here(
                        "data",
                        "homestars",
                        "categories",
+                       "auth",
                        paste0("cat_", gsub("[[:punct:]]|[[:blank:]]", "", x), ".csv")
                      ))
   }
@@ -67,14 +72,3 @@ readr::write_csv(
     "all_cities_categories.csv"
   )
 )
-# head(city_cats)
-# httr::httr::http_status(
-#   httr::GET(
-#     "https://homestars.com/on/1,%20solomons%20island/basement-renovation"
-#   )
-# ) -> resp
-# resp$category
-# resp$reason
-# resp$message
-# gsub("[\\(\\)]", "", regmatches(resp$message, gregexpr("\\(.*?\\)", resp$message))[[1]])
-# test_list %>% dplyr::tibble(.)
