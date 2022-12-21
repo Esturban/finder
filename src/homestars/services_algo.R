@@ -1,12 +1,23 @@
+require(tidyverse)
+require(rvest)
+require(rjson)
+require(R.utils)
+
+#From the categories that were scraped, collect all of the unique services
+# companies that had been gathered in the process of crawling all of the
+# categories by region/city
 services_companies <-
-  all_companies %>% dplyr::select(category, url, name, hs_path) %>% .[!duplicated(.$url), ]
+  readRDS(file = here::here("data", "homestars", "categories", "companies_links_unq.RDS"))
+# %>% dplyr::select(category, url, name, hs_path) %>% .[!duplicated(.$url), ]
+# saveRDS(services_companies,here::here("data","homestars","categories","companies_links_unq.RDS"))
+#Load all of the source files and functions needed to collect the website information
 sapply(list.files(here::here("src", "fns"), full.names = T), source, local = F)
 
-start<-Sys.time()
+start <- Sys.time()
 services_dev <- services_companies %>%
   #Remove etsy, IG and FB
   #Approximately 14% removal
-  .[sample.int(nrow(.), 100),] %>%
+  # .[c(20001:20822,20824:nrow(.)),] %>%
   # smbs_dev<-smbs%>%
   dplyr::mutate(
     #Determine if the link is an independent website or if it's a down stream page of the site
@@ -176,9 +187,49 @@ services_dev <- services_companies %>%
         return(NA_character_)
     }),
   )
+if (interactive())
+  services_dev %>%
+  dplyr::select(category,
+                name,
+                url,
+                email,
+                telephone,
+                instagram_user,
+                twitter_user) %>%
+  readr::write_csv(., file = "sample_emails_3.csv")
 
+#This is how the original file was made
+#Had to be done in 3 parts due to the lack of RAM 
+# on my local machine and issues in the runtime with hanging links when scraping
+# services_data <-
+#   lapply(
+#     list.files(
+#       here::here("data", "homestars", "categories"),
+#       recursive = F,
+#       pattern = "_[[:digit:]]*.RDS",
+#       full.names = T
+#     ),
+#     readRDS
+#   )
+# 
+# services_df <- services_data %>% dplyr::bind_rows(.)
+# saveRDS(
+#   services_df,
+#   file = here::here(
+#     "data",
+#     "homestars",
+#     "categories",
+#     "companies_details_original_source.RDS"
+#   )
+# )
 
-services_dev %>%
-  dplyr::select(category, name, url, email, telephone) %>% print(n = 100)
-end<-Sys.time()
-end-start
+#Save the full file with all of the original data from the scrapes
+saveRDS(
+  services_dev,
+  file = here::here(
+    "data",
+    "homestars",
+    "categories",
+    "companies_details_original_source.RDS"
+  )
+)
