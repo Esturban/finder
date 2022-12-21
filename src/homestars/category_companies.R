@@ -3,6 +3,8 @@
 require(tidyr)
 require(rjson)
 
+#First, find all of the cities categories that are unique and have been saved to
+# the local data folder
 categories_unq <- readRDS(
   file = here::here(
     "data",
@@ -14,10 +16,16 @@ categories_unq <- readRDS(
 
 
 start<-Sys.time()
+#From the original scrape of all of the categories,
+#find the status code 200 links that did work successfully to avoid scraping
+#pages with missing information
 unique_cat_links<-categories_unq %>%
   dplyr::filter(status_code == 200) %>%
   dplyr::pull(Link)
 # lapply(unique_cat_links[1:2],function(cat_link){
+#For each of the unique category links, 
+#create a save path file for recording the details
+#by category
 lapply(unique_cat_links,function(cat_link){
   fname<-paste0("cat_companies_", gsub("/","_",gsub("[[:punct:]]|[[:blank:]]|https://homestars.com/on/", "", cat_link)), ".csv")
   if (!file.exists(here::here(
@@ -29,19 +37,26 @@ lapply(unique_cat_links,function(cat_link){
   ))){
     print(fname)
     # browser()
+    #Go to each of the corresponding pages and download the pages,
+    #the number of available records and from a divisible value of 10,
+    #determine the number of additional page loads needed to scrape each 
+    #of the categories
     categories_unq %>%
     dplyr::filter(Link == cat_link)%>%
     dplyr::mutate(
+      #Download the HTML page
       page = map(.x = Link, ~ {
         page_dl(.x, skip = T)
       }),
+      #Determine the number of items in the corresponding web page based on the page element
+      #indicating the number of records
       n_hits = map_dbl(.x = page,  ~ {
         # browser()
         if(.x[['check']]==0){
           .x[['page']] %>% html_nodes(
             "#search-page > div.search-page__head-container > div.search-page__result-links > div"
           ) %>% html_attr("data-react-props")->page_data_attr
-          
+          #if it exists, convert the totalHits into a numeric value
           tryCatch(rjson::fromJSON(page_data_attr),error=function(e){return(list(totalHits = 9))}) %>% .[['totalHits']] ->
             hits
           
@@ -50,16 +65,20 @@ lapply(unique_cat_links,function(cat_link){
           else
             return (9)}else return(0)
       }),
+      #Build the needed links to scrape the whole category's corresponding pages
+      #From a genetic search function
       all_links = map2(.x = Link, .y = n_hits, ~ {
         if (.y > 10)
           paste0(.x, "?&page=", 2:ceiling(.y / 10), "&")
         else
           .x
       }),
+      # Collect the data from the first scraped page
       results = map(.x = page, ~ {
         if(.x[['check']]==0).x[['page']] %>% html_nodes("#results-sponsors > section > section > div") %>% html_attr("data-react-props") %>% lapply(., rjson::fromJSON) %>% unique(.)%>%return(.) 
         else return(NULL)
       }),
+      #Download and collect the data from all of the category pages
       all_results = map2(.x = all_links, .y = results, ~ {
         if (length(.x) > 1)
         {
@@ -80,6 +99,8 @@ lapply(unique_cat_links,function(cat_link){
           return(.y)
         }
       }),
+      #for each of the corresponding companies, scrape and collect their data
+      # into a tabular format
       companies_df = map(.x = all_results,  ~ {
         # browser()
         if(length(.x)>0) lapply(.x, function(x) {
@@ -142,7 +163,7 @@ lapply(unique_cat_links,function(cat_link){
         
       }),all_links = paste0(all_links,collapse = "; ")
     )%>%dplyr::select(Link,n_hits,all_links,companies_df)->cc_list
-    
+    #From the details scraped, write the columns into a table
     cc_list%>%tidyr::unnest(cols = c(companies_df))%>%unique(.)->ccc
     
     readr::write_csv(ccc,
