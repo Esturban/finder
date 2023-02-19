@@ -1,7 +1,6 @@
 source(here::here("setup.R"), F)
 require(googleCloudStorageR)
 gcs_auth()
-
 nat_load <-F
 nat_tform <-F
 nat_algo <-F
@@ -39,6 +38,16 @@ if (nat_tform)
 if (nat_algo)
   nat_eda<-tryCatch({
     source(here::here("src","nat","nat_eda.R"), F)
+    T
+  }, error = function(e) {
+    print(e)
+    return(F)
+  })
+
+
+if (nat_eda)
+  nat_gcs<-tryCatch({
+    source(here::here("src","gcs.R"), F)
     T
   }, error = function(e) {
     print(e)
