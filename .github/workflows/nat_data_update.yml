@@ -64,7 +64,7 @@ jobs:
      - name: Generate data for the finder
        env:
          GCS_BUCKET: {{ $secrets.GCS_BUCKET }}
-         PF: nat
+         PF: "nat"
        run: |
         source("nat_main.R")
        shell: Rscript {0} 
