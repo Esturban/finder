@@ -22,7 +22,8 @@ page_dl <- function(url,
                     character_min = 5,
                     skip = FALSE,
                     verbose = TRUE,
-                    seconds_elapsed = 10) {
+                    seconds_elapsed = 10,
+                    write_to_file = F) {
   if (nchar(gsub("https://|https://|[[:blank:]]", "", url)) > character_min) {
     tryCatch({
       # From the R.utils package, include the timeout of the function to
@@ -31,6 +32,12 @@ page_dl <- function(url,
       R.utils::withTimeout({
         page <- rvest::read_html(url)
         unlink(url)
+        if(write_to_file){
+          if(!dir.exists(here::here("data","websites",domain(url)))){
+            dir.create(here::here("data","websites",domain(url)),recursive = T)
+          }
+          xml2::write_html(page,file = here::here("data","websites",domain(url),paste0(format(Sys.time(),"%Y%m%d"),".html")))
+        }
         list(page = page, check = 0)
       },
       timeout = seconds_elapsed)
@@ -52,14 +59,21 @@ page_dl <- function(url,
               print(paste0("Trying unsecure link: ", page_link))
             page <- rvest::read_html(page_link)
             unlink(page_link)
+            if(write_to_file){
+              if(!dir.exists(here::here("data","websites",domain(url)))){
+                dir.create(here::here("data","websites",domain(url)),recursive = T)
+              }
+              xml2::write_html(page,file = here::here("data","websites",domain(url),paste0(format(Sys.time(),"%Y%m%d"),".html")))
+            }
             list(page = page,
                  check = 0,
                  err = e)
           } else {
             # If we are skipping the source, we'll explain a bit as to why it failed
-            list(page = NULL,
+            res<-list(page = NULL,
                  check = -1,
                  err = e)
+            return(res)
           }
         },
         timeout = seconds_elapsed)
@@ -71,21 +85,21 @@ page_dl <- function(url,
           print(paste0("Failed: ", url))
         if (verbose)
           print(err)
-        return(list(
-          page = NULL,
-          check = -1,
-          err = err
-        ))
+        res <- list(page = NULL,
+                    check = -1,
+                    err = err)
+        
+        return(res)
       },
       TimeoutException = function(ex)
         cat("[Skipped due to timeout]\n")))
     },
     TimeoutException = function(ex)
       cat("[Skipped due to timeout]\n"))
-  } else
-    return(list(
-      page = NULL,
-      check = -1,
-      err = "Too few characters"
-    ))
+  } else{
+    res <- list(page = NULL,
+                check = -1,
+                err = "Too few characters")
+    return(res)
+  }
 }
