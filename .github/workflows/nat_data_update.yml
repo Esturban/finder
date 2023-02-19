@@ -5,7 +5,7 @@ on:
     branches:
       - dev
     paths:
-      - '.github/workflows/nat_data_update.yml'
+      - '.github/workflows/nat_data_update.yml' 
   schedule:
     - cron: '40 3 * * *'
     
@@ -36,7 +36,8 @@ jobs:
          r-version: ${{ matrix.config.r }}
          http-user-agent: ${{ matrix.config.http-user-agent }}
          use-public-rspm: true
-     - id: 'cloud-auth'
+     - id: 'cloud-authgit status
+     '
        name: Authenticate with Google Cloud
        uses: google-github-actions/auth@v1
        with:
