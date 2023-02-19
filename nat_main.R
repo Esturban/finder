@@ -1,4 +1,6 @@
 source(here::here("setup.R"), F)
+require(googleCloudStorageR)
+gcs_auth()
 
 nat_load <-F
 nat_tform <-F
