@@ -1,6 +1,11 @@
 name: 'NAT Data Update - Dev'
 
 on:
+  push:
+    branches:
+      - dev
+    paths:
+      - '.github/workflows/nat_data_update.yml'
   schedule:
     - cron: '40 3 * * *'
     
@@ -31,12 +36,16 @@ jobs:
          r-version: ${{ matrix.config.r }}
          http-user-agent: ${{ matrix.config.http-user-agent }}
          use-public-rspm: true
+     - name: Authenticate with Google Cloud
+       uses: google-github-actions/auth@v0.4.0
+       with:
+         credentials: ${{ secrets.GCP_SA_KEY }}
 
      - uses: r-lib/actions/setup-pandoc@v2
 
      - name: Install dependencies
        run: |
-          install.packages(c('remotes','sessioninfo','jsonlite','purrr','dplyr','here','DT','rvest','apexcharter'))
+          install.packages(c('remotes','sessioninfo','jsonlite','purrr','dplyr','here','DT','rvest','apexcharter','googleCloudStorageR'))
           #saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
           #writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
        shell: Rscript {0}
