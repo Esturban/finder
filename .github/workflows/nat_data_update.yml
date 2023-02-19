@@ -63,7 +63,7 @@ jobs:
          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
      - name: Generate data for the finder
        env:
-         GCS_BUCKET: {{ $secrets.GCS_BUCKET }}
+         GCS_BUCKET: ${{ secrets.GCS_BUCKET }}
          PF: "nat"
        run: |
         source("nat_main.R")
