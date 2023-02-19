@@ -29,10 +29,12 @@ jobs:
       RSPM: ${{ matrix.config.rspm }}
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
-     - uses: actions/checkout@v3
+     - name: Checkout the dev branch
+       uses: actions/checkout@v3
        with:
          ref: 'refs/heads/${{ matrix.config.branch }}'
-     - uses: r-lib/actions/setup-r@v2
+     - name: Setting up R
+       uses: r-lib/actions/setup-r@v2
        with:
          r-version: ${{ matrix.config.r }}
          http-user-agent: ${{ matrix.config.http-user-agent }}
@@ -43,7 +45,8 @@ jobs:
        with:
          credentials_json: ${{ secrets.GCP_SA_KEY }}
 
-     - uses: r-lib/actions/setup-pandoc@v2
+     - name: Setting up Pandoc
+       uses: r-lib/actions/setup-pandoc@v2
 
      - name: Install dependencies
        run: |
@@ -59,6 +62,9 @@ jobs:
          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
      - name: Generate data for the finder
+       env:
+         GCS_BUCKET: {{ $secrets.GCS_BUCKET }}
+         PF: nat
        run: |
         source("nat_main.R")
        shell: Rscript {0} 
