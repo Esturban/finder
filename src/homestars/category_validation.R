@@ -72,4 +72,3 @@ readr::write_csv(
 )
 end<-Sys.time()
 end-start
-
