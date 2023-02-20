@@ -71,6 +71,7 @@ jobs:
        shell: Rscript {0} 
         
      - name: Commit files to config  
+
        run: |
          git config --global user.name "${GITHUB_ACTOR}"
          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
