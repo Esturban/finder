@@ -57,7 +57,6 @@ lapply(cities, function(x) {
                      ))
   }
   
-  
 }) %>% dplyr::bind_rows(.) -> cities_categories_validated
 
 end <- Sys.time()
