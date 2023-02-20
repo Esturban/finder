@@ -13,7 +13,6 @@ lapply(cities, function(x) {
     "auth",
     paste0("cat_", gsub("[[:punct:]]|[[:blank:]]", "", x), ".csv")
   ))) {
-  
     print(x)
     intermediate_city_categories <-
       city_cats %>% dplyr::filter(City == x)
