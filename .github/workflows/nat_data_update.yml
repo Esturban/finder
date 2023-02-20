@@ -64,6 +64,7 @@ jobs:
      - name: Generate data for NAT finder
        env:
          GCS_BUCKET: ${{ secrets.GCS_BUCKET }}
+         GCS_JSON: ${{ steps.cloud-auth.outputs.credentials_file_path }}
          PF: "nat"
        run: |
         source("nat_main.R")
