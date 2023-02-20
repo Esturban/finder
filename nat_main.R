@@ -1,6 +1,6 @@
 source(here::here("setup.R"), F)
 require(googleCloudStorageR)
-gcs_auth()
+if(!interactive())gcs_auth(json_file = Sys.getenv("GCS_JSON")) else gcs_auth()
 nat_load <-F
 nat_tform <-F
 nat_algo <-F
