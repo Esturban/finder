@@ -1,6 +1,12 @@
 name: 'NAT Data Update - Dev'
 
 on:
+  push:
+    branches:
+      - dev
+    paths:
+      - '.github/workflows/nat_data_update.yml'
+      - 'nat_main.R' 
   schedule:
     - cron: '40 3 * * *'
     
@@ -23,20 +29,28 @@ jobs:
       RSPM: ${{ matrix.config.rspm }}
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
-     - uses: actions/checkout@v3
+     - name: Checkout the dev branch
+       uses: actions/checkout@v3
        with:
          ref: 'refs/heads/${{ matrix.config.branch }}'
-     - uses: r-lib/actions/setup-r@v2
+     - name: Setting up R
+       uses: r-lib/actions/setup-r@v2
        with:
          r-version: ${{ matrix.config.r }}
          http-user-agent: ${{ matrix.config.http-user-agent }}
          use-public-rspm: true
+     - id: 'cloud-auth'
+       name: Authenticate with Google Cloud
+       uses: google-github-actions/auth@v1
+       with:
+         credentials_json: ${{ secrets.GCP_SA_KEY }}
 
-     - uses: r-lib/actions/setup-pandoc@v2
+     - name: Setting up Pandoc
+       uses: r-lib/actions/setup-pandoc@v2
 
      - name: Install dependencies
        run: |
-          install.packages(c('remotes','sessioninfo','jsonlite','purrr','dplyr','here','DT','rvest','apexcharter'))
+          install.packages(c('remotes','R.utils','sessioninfo','jsonlite','purrr','dplyr','here','DT','rvest','apexcharter','googleCloudStorageR'))
           #saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
           #writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
        shell: Rscript {0}
@@ -47,20 +61,25 @@ jobs:
          path: ${{ env.R_LIBS_USER }}
          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
-     - name: Generate data for the finder
+     - name: Generate data for NAT finder
+       env:
+         GCS_BUCKET: ${{ secrets.GCS_BUCKET }}
+         GCS_JSON: ${{ steps.cloud-auth.outputs.credentials_file_path }}
+         PF: "nat"
        run: |
         source("nat_main.R")
        shell: Rscript {0} 
         
-     - name: Commit files   
+     - name: Commit files to config  
+
        run: |
          git config --global user.name "${GITHUB_ACTOR}"
          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
          git config --global pull.ff true
-         git add --all
+         git add data
          git commit -am "Runtime Data Update" -m "Updating the runtime data to include additional coverage" -m "Run on ${{ runner.os }}"
          git push
-     - name: Commit files to Dev as well
+     - name: Commit files to Dev
        if: matrix.config.branch == 'ubuntu-dev'     
        run: |
          git pull origin dev --allow-unrelated-histories

@@ -2,6 +2,9 @@
 #Scraping all of the homestars categories
 
 test_it <- F
+#
+sapply(list.files(here::here("src","fns"),full.names = T),source,local = F)
+
 #Gather all of the categories up front
 "https://homestars.com/on/toronto/categories" %>% read_html -> all_cat_page
 #Gather all of the toronto specifuc URLs

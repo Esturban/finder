@@ -199,5 +199,3 @@ smbs_dev %>%
 
 # smbs_dev%>%dplyr::tibble()
 # str(smbs_dev)
-# colnames(smbs_dev)
-# smbs_dev[1,'main_page']

@@ -13,7 +13,6 @@ lapply(cities, function(x) {
     "auth",
     paste0("cat_", gsub("[[:punct:]]|[[:blank:]]", "", x), ".csv")
   ))) {
-  
     print(x)
     intermediate_city_categories <-
       city_cats %>% dplyr::filter(City == x)
@@ -57,7 +56,6 @@ lapply(cities, function(x) {
                      ))
   }
   
-  
 }) %>% dplyr::bind_rows(.) -> cities_categories_validated
 
 end <- Sys.time()
@@ -72,3 +70,5 @@ readr::write_csv(
     "all_cities_categories.csv"
   )
 )
+end<-Sys.time()
+end-start
