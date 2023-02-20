@@ -72,3 +72,6 @@ readr::write_csv(
     "all_cities_categories.csv"
   )
 )
+end<-Sys.time()
+end-start
+
