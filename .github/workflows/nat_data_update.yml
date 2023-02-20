@@ -61,7 +61,7 @@ jobs:
          path: ${{ env.R_LIBS_USER }}
          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
-     - name: Generate data for the finder
+     - name: Generate data for NAT finder
        env:
          GCS_BUCKET: ${{ secrets.GCS_BUCKET }}
          PF: "nat"
