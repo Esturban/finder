@@ -20,7 +20,7 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - {os: ubuntu-latest,   r: 'release', http-user-agent: 'release', branch: 'ubuntu-dev'}
+          - {os: ubuntu-latest,   r: 'release', http-user-agent: 'release', branch: 'ubuntu-dev-gcs'}
           # - {os: windows-latest,   r: 'release', http-user-agent: 'release', branch: 'windows-dev'}
           # - {os: macOS-latest,   r: 'release', http-user-agent: 'release', branch: 'macOS-dev'}
 
@@ -80,7 +80,7 @@ jobs:
          git commit -am "Runtime Data Update" -m "Updating the runtime data to include additional coverage" -m "Run on ${{ runner.os }}"
          git push
      - name: Commit files to Dev
-       if: matrix.config.branch == 'ubuntu-dev'     
+       if: matrix.config.branch == 'ubuntu-dev-gcs'     
        run: |
          git pull origin dev --allow-unrelated-histories
          git push origin ${{ matrix.config.branch }}:dev
