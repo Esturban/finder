@@ -7,3 +7,5 @@ data/lighthouse/**
 googlecloudstorager-auth-key.json
 .Renviron
 .Rprofile
+/archive/**
+/ignore/**
