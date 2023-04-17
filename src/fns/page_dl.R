@@ -7,6 +7,7 @@
 #' @param skip A logical value indicating whether to skip the download if it is unsuccessful.
 #' @param verbose A logical value indicating whether to print verbose output during the download process.
 #' @param seconds_elapsed An integer specifying the number of seconds to wait before timing out the download process.
+#' @param write_to_file A logical value indicating whether to save the downloaded content to a file.
 #'
 #' @return A list containing the HTML page (if it exists), error codes indicating whether the download was successful, and an error message (if applicable).
 #'
@@ -29,18 +30,38 @@ page_dl <- function(url,
       # From the R.utils package, include the timeout of the function to
       # avoid ongoing hanging when the site cannot be resolved from
       # the original call for the data
+      # Utilize R.utils::withTimeout to execute code block with a specified timeout
       R.utils::withTimeout({
+        # Read the HTML content from the URL
         page <- rvest::read_html(url)
+        
+        # Remove the temporary file created during the download process
         unlink(url)
-        if(write_to_file){
-          if(!dir.exists(here::here("data","websites",domain(url)))){
-            dir.create(here::here("data","websites",domain(url)),recursive = T)
+        
+        # Check if the 'write_to_file' flag is set to TRUE
+        if (write_to_file) {
+          # Check if the directory for storing the downloaded content exists, if not, create it
+          if (!dir.exists(here::here("data", "websites", domain(url)))) {
+            dir.create(here::here("data", "websites", domain(url)),
+                       recursive = T)
           }
-          xml2::write_html(page,file = here::here("data","websites",domain(url),paste0(format(Sys.time(),"%Y%m%d"),".html")))
+          
+          # Write the downloaded HTML content to a file with a timestamp
+          xml2::write_html(page,
+                           file = here::here(
+                             "data",
+                             "websites",
+                             domain(url),
+                             paste0(format(Sys.time(), "%Y%m%d"), ".html")
+                           ))
         }
+        
+        # Return a list containing the HTML page and a check variable set to 0
         list(page = page, check = 0)
       },
+      # Set the timeout for the code block execution
       timeout = seconds_elapsed)
+      
     },
     error = function(e) {
       # Return NULL if missing, checked in the next step
@@ -59,20 +80,27 @@ page_dl <- function(url,
               print(paste0("Trying unsecure link: ", page_link))
             page <- rvest::read_html(page_link)
             unlink(page_link)
-            if(write_to_file){
-              if(!dir.exists(here::here("data","websites",domain(url)))){
-                dir.create(here::here("data","websites",domain(url)),recursive = T)
+            if (write_to_file) {
+              if (!dir.exists(here::here("data", "websites", domain(url)))) {
+                dir.create(here::here("data", "websites", domain(url)),
+                           recursive = T)
               }
-              xml2::write_html(page,file = here::here("data","websites",domain(url),paste0(format(Sys.time(),"%Y%m%d"),".html")))
+              xml2::write_html(page,
+                               file = here::here(
+                                 "data",
+                                 "websites",
+                                 domain(url),
+                                 paste0(format(Sys.time(), "%Y%m%d"), ".html")
+                               ))
             }
             list(page = page,
                  check = 0,
                  err = e)
           } else {
             # If we are skipping the source, we'll explain a bit as to why it failed
-            res<-list(page = NULL,
-                 check = -1,
-                 err = e)
+            res <- list(page = NULL,
+                        check = -1,
+                        err = e)
             return(res)
           }
         },
@@ -102,5 +130,5 @@ page_dl <- function(url,
                 err = "Too few characters")
     return(res)
   }
-
+  
 }

@@ -47,7 +47,7 @@ if (nat_algo)
 
 if (nat_eda)
   nat_gcs<-tryCatch({
-    source(here::here("src","gcs.R"), F)
+    source(here::here("src","jobs","gcs.R"), F)
     T
   }, error = function(e) {
     print(e)
