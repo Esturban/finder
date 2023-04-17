@@ -1,50 +1,41 @@
 source("setup.R",F)
+reactlog::reactlog_enable()
 
-#Load and run all of the UI files
-sapply(list.files('src',full.names = T),source,local=F)
-#Add the corresponding modules needed to run the files
-sapply(list.files('modules',full.names = T),source,local=F)
-#Load and run all of the UI files
-sapply(list.files('ui',pattern = "*.R",full.names=T),source,local=F)
-
-shinyApp(ui=ui(),server=function(input,output,session){
-  # river plot
-  dates <- reactive(seq.Date(Sys.Date() - 30, Sys.Date(), by = input$by))
-  
-  output$pie <- renderApexchart({
-    apex(
-      data = poll,
-      type = "pie",
-      mapping = aes(x = answer, y = n)
-    )
-  })
-  
-  output$scatter <- renderApexchart({
-    apex(
-      data = mtcars,
-      type = "scatter",
-      mapping = aes(
-        x = wt,
-        y = mpg,
-        fill = cyl
-      )
-    )
-  })
-  
-  
-  # datatable
-  output$data <- renderTable({
-    mtcars[, c("mpg", input$variable), drop = FALSE]
-  }, rownames = TRUE)
-  
-  
-  # send the theme to javascript
-  # observe({
-  #   session$sendCustomMessage(
-  #     type = "ui-tweak",
-  #     message = list(os = input$theme, skin = input$color)
-  #   )
-  # })
-})
-
-
+shinyApp(
+  ui = ui(),
+  server = function(input, output, session) {
+    #First picture and quote
+    ye_pic <-
+      reactiveVal(value = random_img())
+    ye_quote <-
+      reactiveVal(value = random_quote())
+    
+    callModule(id = "ye",nav_server)
+    callModule(id = "ye",panel_server)
+    callModule(id = "ye",main_server,pic = ye_pic, bquote = ye_quote)
+    #Determine if the application has been pulled for refreshing
+    observeEvent(input$ptr,
+                 {
+                     print(ye_pic())
+                   ye_pic(random_img())
+                   ye_quote(random_quote())
+                 },ignoreInit = F)
+    # #Output of the card showing the yeezy quote and the picture
+    # output[['yeezy']] <- renderUI({
+    #     print(ye_pic())
+    #     req(ye_pic())
+    #   f7Card(image = ye_pic(),
+    #     title = h2("Kanye West"),
+    #     # shiny::img(src = paste0(), style = "display: block; margin-left: auto; margin-right: auto; max-width:100%; width:80%; height:auto; border-radius:3%;"),
+    #     br(),
+    #     shiny::img(shiny::blockquote(ye_quote()), style = "display: block; margin-left: auto; margin-right: auto; text-align:center;")
+    #   )
+    })
+    # send the theme to javascript
+    observe({
+      session$sendCustomMessage(type = "ui-tweak",
+                                message = list(os = input$theme, skin = input$color))
+    })
+    
+  }
+)
