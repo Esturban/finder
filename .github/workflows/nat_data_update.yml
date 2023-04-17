@@ -71,7 +71,6 @@ jobs:
        shell: Rscript {0} 
         
      - name: Commit files to config  
-
        run: |
          git config --global user.name "${GITHUB_ACTOR}"
          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
@@ -80,7 +79,7 @@ jobs:
          git commit -am "Runtime Data Update" -m "Updating the runtime data to include additional coverage" -m "Run on ${{ runner.os }}"
          git push
      - name: Commit files to Dev
-       if: matrix.config.branch == 'ubuntu-dev-gcs'     
+       if: matrix.config.branch == 'ubuntu-dev'     
        run: |
          git pull origin dev --allow-unrelated-histories
          git push origin ${{ matrix.config.branch }}:dev

@@ -42,18 +42,11 @@ page_dl <- function(url,
         if (write_to_file) {
           # Check if the directory for storing the downloaded content exists, if not, create it
           if (!dir.exists(here::here("data", "websites", domain(url)))) {
-            dir.create(here::here("data", "websites", domain(url)),
-                       recursive = T)
+            dir.create(here::here("data", "websites", domain(url)), recursive = T)
           }
           
           # Write the downloaded HTML content to a file with a timestamp
-          xml2::write_html(page,
-                           file = here::here(
-                             "data",
-                             "websites",
-                             domain(url),
-                             paste0(format(Sys.time(), "%Y%m%d"), ".html")
-                           ))
+          xml2::write_html(page, file = here::here("data", "websites", domain(url), paste0(format(Sys.time(), "%Y%m%d"), ".html")))
         }
         
         # Return a list containing the HTML page and a check variable set to 0
@@ -61,7 +54,6 @@ page_dl <- function(url,
       },
       # Set the timeout for the code block execution
       timeout = seconds_elapsed)
-      
     },
     error = function(e) {
       # Return NULL if missing, checked in the next step
@@ -80,27 +72,20 @@ page_dl <- function(url,
               print(paste0("Trying unsecure link: ", page_link))
             page <- rvest::read_html(page_link)
             unlink(page_link)
-            if (write_to_file) {
-              if (!dir.exists(here::here("data", "websites", domain(url)))) {
-                dir.create(here::here("data", "websites", domain(url)),
-                           recursive = T)
+            if(write_to_file){
+              if(!dir.exists(here::here("data","websites",domain(url)))){
+                dir.create(here::here("data","websites",domain(url)),recursive = T)
               }
-              xml2::write_html(page,
-                               file = here::here(
-                                 "data",
-                                 "websites",
-                                 domain(url),
-                                 paste0(format(Sys.time(), "%Y%m%d"), ".html")
-                               ))
+              xml2::write_html(page,file = here::here("data","websites",domain(url),paste0(format(Sys.time(),"%Y%m%d"),".html")))
             }
             list(page = page,
                  check = 0,
                  err = e)
           } else {
             # If we are skipping the source, we'll explain a bit as to why it failed
-            res <- list(page = NULL,
-                        check = -1,
-                        err = e)
+            res<-list(page = NULL,
+                      check = -1,
+                      err = e)
             return(res)
           }
         },
