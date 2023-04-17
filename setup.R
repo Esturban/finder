@@ -7,6 +7,8 @@ require(here)
 require(DT)
 require(rvest)
 require(apexcharter)
+require(officer)
+require(ggplot2)
 
 
 #' 
