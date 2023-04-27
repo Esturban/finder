@@ -1,9 +1,6 @@
-require(shinyMobile)
-require(shiny)
-require(shinyWidgets)
-require(apexcharter)
-require(rvest)
-# setwd("app")
+library(shiny)
+library(rvest)
+
 # source modules
 path <- "src/"
 
@@ -20,9 +17,22 @@ function(f) {
 })
 
 #Remaining libraries to load
+library(shinyMobile)
+library(shinyWidgets)
 library(tidyverse)
 library(jsonlite)
 
+#Load the shiny modules
+path<-"modules/"
+sapply(list.files(
+  path,
+  include.dirs = F,
+  pattern = '.R',
+  ignore.case = T
+),
+function(f) {
+  source(paste0(path, f),F)
+})
 #Load the UI modules
 path<-"ui/"
 sapply(list.files(
@@ -32,6 +42,6 @@ sapply(list.files(
   ignore.case = T
 ),
 function(f) {
-  source(paste0(path, f), F)
+  source(paste0(path, f),F)
 })
 

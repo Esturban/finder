@@ -7,8 +7,8 @@ on:
     paths:
       - '.github/workflows/nat_data_update.yml'
       - 'nat_main.R' 
-  schedule:
-    - cron: '40 3 * * *'
+    schedule:
+      - cron: '40 3 * * *'
     
 jobs:
   data-update:
@@ -51,6 +51,7 @@ jobs:
      - name: Install dependencies
        run: |
           install.packages(c('remotes','R.utils','sessioninfo','jsonlite','purrr','dplyr','here','DT','rvest','apexcharter','googleCloudStorageR'))
+          remotes::install_github("cloudyr/googleCloudStorageR")
           #saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
           #writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
        shell: Rscript {0}
@@ -71,7 +72,6 @@ jobs:
        shell: Rscript {0} 
         
      - name: Commit files to config  
-
        run: |
          git config --global user.name "${GITHUB_ACTOR}"
          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
@@ -80,7 +80,7 @@ jobs:
          git commit -am "Runtime Data Update" -m "Updating the runtime data to include additional coverage" -m "Run on ${{ runner.os }}"
          git push
      - name: Commit files to Dev
-       if: matrix.config.branch == 'ubuntu-dev-gcs'     
+       if: matrix.config.branch == 'ubuntu-dev'     
        run: |
          git pull origin dev --allow-unrelated-histories
          git push origin ${{ matrix.config.branch }}:dev
