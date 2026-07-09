@@ -9,3 +9,9 @@ googlecloudstorager-auth-key.json
 .Rprofile
 /archive/**
 /ignore/**
+/.gtm/
+.codegraph/
+.wolf/
+AGENTS.md
+CLAUDE.md
+GEMINI.md
