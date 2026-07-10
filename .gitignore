@@ -12,6 +12,7 @@ googlecloudstorager-auth-key.json
 /.gtm/
 .codegraph/
 .wolf/
+.claude/
 AGENTS.md
 CLAUDE.md
 GEMINI.md
